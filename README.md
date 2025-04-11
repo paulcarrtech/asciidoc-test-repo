@@ -10,4 +10,4 @@ I am a technical writer & editor based in Vancouver, Canada.
 * [LinkedIn](https://linkedin.com/in/paulcarrtech)
 * [GitHub](https://github.com/paulcarrtech)
 ## Copyright
-* Content &copy; 2025 Paul Carr (unless otherwise stated). All rights reserved.
+Content &copy; 2025 Paul Carr (unless otherwise stated). All rights reserved.
