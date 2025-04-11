@@ -1,5 +1,5 @@
 # asciidoc-test-repo
-This is a space for trying out the AsciiDoc format.
+This is a space for playing with the AsciiDoc format.
 ## About the Author
 ### Paul Carr
 I am a technical writer & editor based in Vancouver, Canada.
