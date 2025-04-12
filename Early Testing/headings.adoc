@@ -39,3 +39,7 @@ In GitHub, the rule renders below the heading.
 
 In the VS Code Asciidoctor preview, this horizontal rule renders above the heading. 
 ====
+
+== Single-Sourced Copyright Declaration
+
+include::Includes/copyright.adoc[]
