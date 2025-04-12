@@ -43,3 +43,5 @@ In the VS Code Asciidoctor preview, this horizontal rule renders above the headi
 == Single-Sourced Copyright Declaration
 
 include::Includes/copyright.adoc[]
+
+NOTE: Includes don't render when viewed on GitHub. 
