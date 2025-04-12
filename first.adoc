@@ -8,8 +8,6 @@ A new line does not start a new paragraph.
 Placing each sentence on a new line is not required. This sentence is on the same line as the previous one. They are parts of the same paragraph.
 ====
 
-Why is there no horizontal rule between this paragraph and following heading?
-
 == Line Breaks
 
 A plus sign at the end of the line "+" +
@@ -33,7 +31,7 @@ This table is generated from a seperate .csv:
 include::basic table.csv[]
 |====
 
-Hardcode 
+=== Hardcode .csv 
 
 I can also code a .csv directly into this .adoc:
 
