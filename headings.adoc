@@ -1,0 +1,31 @@
+= Heading 0
+
+It appears there can only be one level-0 heading in a doc.
+
+== Heading 1
+
+Lorem ipsum
+
+=== Heading 2
+
+Lorem ipsum
+
+=== Heading 2
+
+Lorem ipsum
+
+== Heading 1
+
+Lorem ipsum
+
+== Heading 1
+
+A horizontal rule seems to seperate consecutive level-1 headings.
+
+=== Heading 2
+
+Even if there are lower-level headings between the level-1 headings.
+
+== Heading 1
+
+See?
