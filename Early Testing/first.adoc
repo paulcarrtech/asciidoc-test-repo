@@ -6,6 +6,8 @@ A new line does not start a new paragraph.
 [NOTE]
 ====
 Placing each sentence on a new line is not required. This sentence is on the same line as the previous one. They are parts of the same paragraph.
+
+However, placing each sentence on it's own line cound be useful for includes that only reference certain lines of a file.
 ====
 
 == Line Breaks
