@@ -51,5 +51,7 @@ This copyright declaration is single-sourced from a separate .adoc file.
 
 include::includes/copyright.adoc[]
 
+NOTE: Includes don't render when viewed on GitHub. 
+
 
 
