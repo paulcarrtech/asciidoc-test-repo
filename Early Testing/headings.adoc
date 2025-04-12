@@ -3,6 +3,8 @@
 There can only be one level-0 heading in a doc when the document type is set to _article_. 
 If the document type is set to _book_, there can be multiple level-0 headings. 
 
+_article_ is the default document type.
+
 == Heading 1
 
 Lorem ipsum
@@ -11,7 +13,7 @@ Lorem ipsum
 
 Lorem ipsum
 
-=== Heading 2
+==== Heading 3
 
 Lorem ipsum
 
@@ -21,7 +23,7 @@ Lorem ipsum
 
 == Heading 1
 
-A horizontal rule seems to seperate consecutive level-1 headings.
+By default, a horizontal rule seperates consecutive level-1 headings.
 
 === Heading 2
 
@@ -29,4 +31,11 @@ Even if there are lower-level headings between the level-1 headings.
 
 == Heading 1
 
-See?
+*See?*
+
+[NOTE] 
+====
+In GitHub, the rule renders below the heading.  
+
+In the VS Code Asciidoctor preview, this horizontal rule renders above the heading. 
+====

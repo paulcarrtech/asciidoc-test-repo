@@ -11,11 +11,12 @@ Placing each sentence on a new line is not required. This sentence is on the sam
 == Line Breaks
 
 A plus sign at the end of the line "+" +
-Creates a hard line break.
+creates a hard line break.
 
 == Paragraphs
 
 At least one blank line between lines of text starts a new paragraph.
+
 This is a new paragraph.
 
 == Tables
@@ -33,7 +34,7 @@ include::basic table.csv[]
 
 === Hardcode .csv 
 
-I can also code a .csv directly into this .adoc:
+The next table is coded as .csv directly into this .adoc. This will render when viewed on GitHub.
 
 [%header, format=csv]
 |====
