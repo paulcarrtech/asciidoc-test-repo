@@ -24,7 +24,7 @@ There are many ways to make tables in AsciiDoc. The following are a few examples
 
 === Include .csv
 
-This table is generated from a seperate .csv:
+This table is generated from a seperate .csv, but it will not render from this .adoc when viewed on GitHub.
  
 [%header, format=csv]
 |====

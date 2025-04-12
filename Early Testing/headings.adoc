@@ -1,6 +1,7 @@
 = Heading 0
 
-It appears there can only be one level-0 heading in a doc.
+There can only be one level-0 heading in a doc when the document type is set to _article_. 
+If the document type is set to _book_, there can be multiple level-0 headings. 
 
 == Heading 1
 
