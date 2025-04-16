@@ -1,6 +1,6 @@
 [NOTE] 
 ====
-The following section is single-sourced from a separate file with a heading offset of to fit this document's structure.
+The following section is single-sourced from a separate file with a heading offset to fit this document's structure.
 
 This note itself is single-sourced from yet another separate file.
 ====

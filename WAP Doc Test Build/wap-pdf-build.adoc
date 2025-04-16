@@ -6,7 +6,17 @@ Connecting to a WAP allows your iPhone SE (2nd Generation) to join a network wir
 
 include::Partials/note-include-leveloffset.adoc[]
 
-include::WAP Settings App.adoc[leveloffset=+1]
+include::wap-settings-app.adoc[leveloffset=+1]
+
+include::Partials/note-include-leveloffset.adoc[]
+
+include::Partials/wap-control-center.adoc[leveloffset=+1]
+
+Depending on how your Control Center is configured, you can access Wi-Fi by expanding the Connectivity group or the Wi-Fi control.
+
+include::Partials/note-include-leveloffset.adoc[]
+
+
 
 
 
