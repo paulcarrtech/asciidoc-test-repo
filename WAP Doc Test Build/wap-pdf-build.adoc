@@ -4,19 +4,24 @@ You can connect your iPhone SE (2nd Generation) to a wireless access point (WAP)
 
 Connecting to a WAP allows your iPhone SE (2nd Generation) to join a network wirelessly.
 
+// NOTE
 include::Partials/note-include-leveloffset.adoc[]
 
+// Connecting Through the Settings App
 include::wap-settings-app.adoc[leveloffset=+1]
 
+// NOTE
 include::Partials/note-include-leveloffset.adoc[]
 
+// Connecting Through Control Center
 include::Partials/wap-control-center.adoc[leveloffset=+1]
 
 Depending on how your Control Center is configured, you can access Wi-Fi by expanding the Connectivity group or the Wi-Fi control.
 
+// NOTE
 include::Partials/note-include-leveloffset.adoc[]
 
-
+// Expanding the Connectivity Group
 
 
 
