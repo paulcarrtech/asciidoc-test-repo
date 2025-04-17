@@ -8,7 +8,7 @@ Connecting to a WAP allows your iPhone SE (2nd Generation) to join a network wir
 include::Partials/note-include-leveloffset.adoc[]
 
 // Connecting Through the Settings App
-include::wap-settings-app.adoc[leveloffset=+1]
+include::Partials/wap-settings-app.adoc[leveloffset=+1]
 
 // NOTE
 include::Partials/note-include-leveloffset.adoc[]

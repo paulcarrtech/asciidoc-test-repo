@@ -9,9 +9,9 @@ Connect to a WAP through the *Settings* app:
 . If prompted, enter the password in the *Password* field, then tap *Join*.
 
 // NOTE
-include::Partials/note-single-sourced-caution.adoc[]
+include::note-single-sourced-caution.adoc[]
 
 // CAUTION
-include::Partials/caution-password-protection.adoc[]
+include::caution-password-protection.adoc[]
 
 Once your iPhone SE (2nd Generation) successfully connects, the network name will appear with a checkmark above the Networks list.
