@@ -47,7 +47,7 @@ Row 2.1, Row 2.2, Row 2.3, Row 2.4
 
 == Single-Sourced Footer
 
-This copyright declaration is single-sourced from a separate .adoc file.
+This copyright declaration is single sourced from a separate .adoc file.
 
 === Copyright Declaration
 
