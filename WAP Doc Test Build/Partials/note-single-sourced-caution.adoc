@@ -1,1 +1,6 @@
-NOTE: The following Caution admonition is single sourced from a separate file.
+[NOTE]
+====
+_The following Caution admonition is single sourced from a separate file._
+
+_This note itself is single-sourced from yet another separate file._
+====

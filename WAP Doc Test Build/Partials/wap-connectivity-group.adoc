@@ -17,5 +17,7 @@ include::note-single-sourced-caution.adoc[]
 // CAUTION
 include::caution-password-protection.adoc[]
 
-Once your iPhone SE (2nd Generation) successfully connects, the network name will appear with a checkmark above the *Networks* list.
+// SUCCESSFUL CONNECTION
+include::successful-connection.adoc[]
+
 

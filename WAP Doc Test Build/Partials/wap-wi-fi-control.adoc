@@ -1,0 +1,19 @@
+= Expanding the Wi-Fi Control
+
+. If the *Wi-Fi* control is present in *Control Center*, complete the following steps:
+
+* If *Wi-Fi* is off, tap it on.
+* Touch and hold *Wi-Fi* to display the list of available networks.
+
+. Tap the name of the network you want to join.
+. If prompted, enter the password in the *Password* field, then tap *Join*.
+
+// NOTE
+include::note-single-sourced-caution.adoc[]
+
+// CAUTION
+include::caution-password-protection.adoc[]
+
+// SUCCESSFUL CONNECTION
+include::successful-connection.adoc[]
+

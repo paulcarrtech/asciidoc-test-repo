@@ -24,7 +24,11 @@ include::Partials/note-include-leveloffset.adoc[]
 // Expanding the Connectivity Group
 include::Partials/wap-connectivity-group.adoc[leveloffset=+2]
 
+// NOTE
+include::Partials/note-include-leveloffset.adoc[]
+
 // Expanding the Wi-Fi Control
+include::Partials/wap-wi-fi-control.adoc[leveloffset=+2]
 
 
 
