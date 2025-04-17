@@ -9,4 +9,7 @@ include::Partials/note-include-leveloffset.adoc[]
 include::Partials/wap-settings-app.adoc[leveloffset=+1]
 
 // NOTE
+include::Partials/note-single-sourced-copyright.adoc[]
+
+// Copyright Declaration
 include::Partials/copyright-and-tm.adoc[]
