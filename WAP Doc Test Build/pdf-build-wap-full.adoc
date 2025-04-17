@@ -1,10 +1,12 @@
-= How to Connect Your iPhone SE (2nd Generation) to a Wireless Access Point
+= How to Connect Your {iphone} to a Wireless Access Point
 :toc:
 :pdf-page-size: Letter
+include::Partials/attributes.adoc[]
 
-You can connect your iPhone SE (2nd Generation) to a wireless access point (WAP) through the *Settings* app or *Control Center*.
 
-Connecting to a WAP allows your iPhone SE (2nd Generation) to join a network wirelessly.
+You can connect your {iphone} to a wireless access point (WAP) through the *Settings* app or *Control Center*.
+
+Connecting to a WAP allows your {iphone} to join a network wirelessly.
 
 // NOTE
 include::Partials/note-include-leveloffset.adoc[]

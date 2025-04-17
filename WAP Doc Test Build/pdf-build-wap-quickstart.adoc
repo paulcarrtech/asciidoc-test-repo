@@ -1,0 +1,7 @@
+= Quickstart Guide: Connect Your {iphone} to a Wireless Access Point
+:pdf-page-size: Letter
+include::Partials/attributes.adoc[]
+
+include::Partials/wap-settings-app.adoc[leveloffset=+1]
+
+include::Partials/copyright-and-tm.adoc[]

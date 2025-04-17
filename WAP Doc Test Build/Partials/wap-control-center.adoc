@@ -1,5 +1,5 @@
 = Connecting Through Control Center
 
-. Swipe up from the bottom of your iPhone SE (2nd Generation) screen to open Control Center.
+. Swipe up from the bottom of your {iphone} screen to open Control Center.
 
 Depending on how your *Control Center* is configured, you can access *Wi-Fi* by expanding the *Connectivity* group or the *Wi-Fi* control.
