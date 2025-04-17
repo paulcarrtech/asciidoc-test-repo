@@ -22,8 +22,9 @@ Depending on how your Control Center is configured, you can access Wi-Fi by expa
 include::Partials/note-include-leveloffset.adoc[]
 
 // Expanding the Connectivity Group
+include::Partials/wap-connectivity-group.adoc[leveloffset=+2]
 
-
+// Expanding the Wi-Fi Control
 
 
 
