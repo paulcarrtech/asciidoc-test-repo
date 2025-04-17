@@ -2,6 +2,11 @@
 :pdf-page-size: Letter
 include::Partials/attributes.adoc[]
 
+//NOTE
+include::Partials/note-include-leveloffset.adoc[]
+
+// Connecthing Through the Settings App
 include::Partials/wap-settings-app.adoc[leveloffset=+1]
 
+// NOTE
 include::Partials/copyright-and-tm.adoc[]

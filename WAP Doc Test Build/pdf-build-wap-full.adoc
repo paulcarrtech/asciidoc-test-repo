@@ -32,6 +32,9 @@ include::Partials/note-include-leveloffset.adoc[]
 // Expanding the Wi-Fi Control
 include::Partials/wap-wi-fi-control.adoc[leveloffset=+2]
 
+//NOTE
+include::Partials/note-single-sourced-copyright.adoc[]
+
 // Copyright Declaration
 include::Partials/copyright-and-tm.adoc[]
 
