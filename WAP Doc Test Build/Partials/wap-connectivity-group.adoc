@@ -9,6 +9,9 @@ Screenshot of the list of available networks
 . Tap the name of the network you want to join.
 . If prompted, enter the password in the *Password* field, then tap *Join*.
 
+// NOTE
+include::note-single-sourced-caution.adoc[]
+
 // CAUTION
 include::caution-password-protection.adoc[]
 
