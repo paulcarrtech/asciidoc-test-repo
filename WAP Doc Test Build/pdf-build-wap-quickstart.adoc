@@ -1,5 +1,4 @@
 = Quickstart Guide: Connect Your {iphone} to a Wireless Access Point
-:pdf-page-size: Letter
 include::Partials/attributes.adoc[]
 
 //NOTE

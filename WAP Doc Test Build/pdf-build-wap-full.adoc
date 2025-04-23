@@ -1,7 +1,6 @@
 = How to Connect Your {iphone} to a Wireless Access Point
 :toc:
 :toclevels: 4
-:pdf-page-size: Letter
 include::Partials/attributes.adoc[]
 
 <<<

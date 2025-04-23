@@ -4,6 +4,9 @@ Connect to a WAP through the *Settings* app:
 
 . Tap the *Settings* app on your *Home Screen* or in your *App Library*.
 . Tap *Wi-Fi* to manage your settings.
+
+image::settings-wi-fi.jpg[]
+
 . If *Wi-Fi* is off, tap it on.
 . In the *Networks* list, tap the name of the network you want to join.
 . If prompted, enter the password in the *Password* field, then tap *Join*.
