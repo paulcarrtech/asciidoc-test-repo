@@ -1,7 +1,7 @@
 = How to Connect Your {iphone} to a Wireless Access Point
 :toc:
 :toclevels: 4
-include::Partials/attributes.adoc[]
+include::Partials/attributes.adoc[pdfwidth=33%]
 
 <<<
 
