@@ -1,5 +1,4 @@
 = Connecting Through the Settings App
-include::imagesdir.adoc[]
 
 Connect to a WAP through the *Settings* app:
 

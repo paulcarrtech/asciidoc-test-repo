@@ -1,2 +1,8 @@
 :pdf-page-size: Letter
+ifdef::backend-pdf[]
+:imagesdir: images
+endif::[]
+ifdef::backend-html5[]
+:imagesdir: ../images
+endif::[]
 :iphone: iPhone SE (2nd Generation)

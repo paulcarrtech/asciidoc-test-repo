@@ -1,0 +1,2 @@
+include::partials/attributes.adoc[]
+include::partials/wap-settings-app.adoc[]
