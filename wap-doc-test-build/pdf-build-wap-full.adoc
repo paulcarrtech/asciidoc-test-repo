@@ -1,6 +1,7 @@
 = How to Connect Your {iphone} to a Wireless Access Point
 :toc:
 :toclevels: 4
+:imagesdir: images
 include::partials/attributes.adoc[]
 
 <<<
