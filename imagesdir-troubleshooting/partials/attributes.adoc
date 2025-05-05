@@ -1,0 +1,2 @@
+:pdf-page-size: Letter
+:iphone: iPhone SE (2nd Generation)

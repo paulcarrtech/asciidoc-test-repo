@@ -1,0 +1,6 @@
+ifdef::backend-pdf[]
+:imagesdir: images
+endif::[]
+ifdef::backend-html5[]
+:imagesdir: ../images
+endif::[]
