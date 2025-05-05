@@ -31,7 +31,7 @@ This table is generated from a seperate .csv, but it will not render from this .
  
 [%header, format=csv]
 |====
-include::basic table.csv[]
+include::basic-table.csv[]
 |====
 
 === Hardcode .csv 
