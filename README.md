@@ -1,13 +1,22 @@
 # asciidoc-test-repo
-This is a space for playing with the AsciiDoc format.
-## About the Author
+
+This is a space for learning the AsciiDoc format.
+
+## About the Owner
+
 ### Paul Carr
-I am a technical writer & editor based in Vancouver, Canada.
+
+I am a technical writer and editor based in Vancouver, Canada.
+
 ### Links
+
 * [Website](https://paulcarr.tech)
-* [Portfolio](https://paulcarr.tech/portfolio)
+  * [Portfolio](https://paulcarr.tech/portfolio)
 * [Email](mailto:info@paulcarr.tech)
 * [LinkedIn](https://linkedin.com/in/paulcarrtech)
 * [GitHub](https://github.com/paulcarrtech)
+
 ## Copyright
-Content &copy; 2025 Paul Carr (unless otherwise stated). All rights reserved.
+
+* Content &copy; 2025 Paul Carr (unless otherwise stated)
+* All rights reserved
