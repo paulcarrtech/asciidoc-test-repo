@@ -18,5 +18,5 @@ include::note-single-sourced-caution.adoc[]
 include::caution-password-protection.adoc[]
 
 // SUCCESSFUL CONNECTION
-include::successful-connection.adoc[]
+include::wap-successful-connection.adoc[]
 
