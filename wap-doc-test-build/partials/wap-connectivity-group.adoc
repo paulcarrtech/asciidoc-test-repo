@@ -5,8 +5,15 @@
 * If the *Connectivity* group is present in *Control Center*, touch and hold the group.
 * Or tap the *Antenna* shortcut in *Control Center*.
 
+image::connectivity-controls.jpg[Screenshot of the expanded Connectivity group of controls,375,667,pdfwidth=33%]
+
+[start=2]
 . If *Wi-Fi* is off, tap it on.
 . Touch and hold *Wi-Fi* to display the list of available networks.
+
+image::control-center-networks.jpg[Screenshot of the list of available networks,375,667,pdfwidth=33%]
+
+[start=4]
 . Tap the name of the network you want to join.
 . If prompted, enter the password in the *Password* field, then tap *Join*.
 
