@@ -20,5 +20,3 @@ include::caution-password-protection.adoc[]
 
 // SUCCESSFUL CONNECTION
 include::wap-successful-connection.adoc[]
-
-image::settings-wi-fi-connected.jpg["Screenshot of the Wi-Fi settings screen, including a successfully connected network", 375,667,pdfwidth=33%]
