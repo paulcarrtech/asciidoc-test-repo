@@ -5,6 +5,9 @@
 * If *Wi-Fi* is off, tap it on.
 * Touch and hold *Wi-Fi* to display the list of available networks.
 
+image::control-center-networks.jpg[Screenshot of the list of available networks,375,667,pdfwidth=33%]
+
+[start=2]
 . Tap the name of the network you want to join.
 . If prompted, enter the password in the *Password* field, then tap *Join*.
 
