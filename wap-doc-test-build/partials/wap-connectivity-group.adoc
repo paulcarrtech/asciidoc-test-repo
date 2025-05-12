@@ -2,8 +2,8 @@
 
 . Expand the *Connectivity* group in one of two ways to view its controls:
 
-* If the *Connectivity* group is present in *Control Center*, touch and hold the group.
-* Or tap the *Antenna* shortcut in *Control Center*.
+* If the *Connectivity* image:connectivity-group.jpg[Icon for the Connectivity group of controls in Control Center,20,20] group is present in *Control Center*, touch and hold the group.
+* Or tap the *Antenna* image:control-center-antenna.jpg[Icon for the Antenna shortcut in Control Center,20,20] shortcut in *Control Center*.
 
 image::connectivity-controls.jpg[Screenshot of the expanded Connectivity group of controls,375,667,pdfwidth=33%]
 

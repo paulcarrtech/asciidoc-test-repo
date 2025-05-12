@@ -1,6 +1,6 @@
 = Expanding the Wi-Fi Control
 
-. If the *Wi-Fi* control is present in *Control Center*, complete the following steps:
+. If the *Wi-Fi* image:wi-fi-control.jpg[Icon for the Wi-Fi control in Control Center,20,20] control is present in *Control Center*, complete the following steps:
 
 * If *Wi-Fi* is off, tap it on.
 * Touch and hold *Wi-Fi* to display the list of available networks.
