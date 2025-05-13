@@ -2,7 +2,7 @@
 
 ## Asciidoctor
 
-### Custom Path
+### Custom Stylsheet
 
     -a stylesheet=directory/file.css
 
