@@ -4,17 +4,23 @@
 
 ### Apply a Custom CSS Stylesheet
 
-    -a stylesheet=<directory_name/file_name.css>
+```ruby
+-a stylesheet=<directory_name/file_name.css>
+```
 
 ### Specify the Output Directory
 
-    -D <directory_name>
+```ruby
+-D <directory_name>
+```
 
 ## Asciidoctor PDF
 
 ### Apply a Built-In Theme
 
-    --theme <built-in_theme_name> 
+```ruby
+--theme <built-in_theme_name> 
+```
 
 Built-in theme names include:
 
@@ -28,5 +34,6 @@ Built-in theme names include:
 
 ### Specify the Output Directory
 
-    -D <directory_name>
-
+```ruby
+-D <directory_name>
+```
