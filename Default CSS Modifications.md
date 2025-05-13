@@ -15,7 +15,7 @@ button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appe
 ### New Code
 
 ```css
-button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button; appearance:button;cursor:pointer}
+button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;appearance:button;cursor:pointer}
 ```
 I added `appearance:button;` to the original code.
 
