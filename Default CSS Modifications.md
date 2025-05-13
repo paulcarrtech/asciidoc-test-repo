@@ -15,7 +15,7 @@ button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appe
 ```css
 button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button; appearance:button;cursor:pointer}
 ```
-I added `appearance:button;` from the original.
+I added `appearance:button;` to the original code.
 
 ## Modification #2
 
@@ -31,4 +31,4 @@ I added `appearance:button;` from the original.
 #header,#content,#footnotes,#footer{width:100%;margin:0 auto;max-width:62.5em;position:relative;padding-left:.9375em;padding-right:.9375em}
 ```
 
-I removed `*zoom:1;` from the original.
+I removed `*zoom:1;` from the original code.
