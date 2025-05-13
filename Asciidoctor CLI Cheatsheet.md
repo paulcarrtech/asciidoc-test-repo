@@ -4,7 +4,7 @@
 
 ### Apply a Custom CSS Stylesheet
 
-    -a stylesheet= <directory_name/file_name.css>
+    -a stylesheet=<directory_name/file_name.css>
 
 ### Specify the Output Directory
 
