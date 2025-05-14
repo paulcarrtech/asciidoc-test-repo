@@ -10,13 +10,40 @@
 @import "https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700";
 @import "../css/asciidoctor-default.css";
 
-h1, h2, h3, h4, h5, h6, #toctitle,
-.sidebarblock > .content > .title {
-  color: rgb(44, 1, 86);
+body {
+  color:rgb(80, 80, 80);
+  background:antiquewhite;
+}
+
+h1, h2, h3, h4, h5, h6, #header>h1:first-child, #toctitle, .sidebarblock>.content>.title {
+  color: rgb(91, 50, 110);
 }
 
 p, ul, ol {
-  font-family: sans-serif;
+  font-family: "Open Sans", "DejaVu Sans", sans-serif;
+}
+
+a {
+  color: rgb(133, 73, 161);text-decoration:underline;line-height:inherit
+}
+
+a:hover, a:focus {
+  color:antiquewhite;
+  background:rgb(133, 73, 161)
+}
+
+td {
+  background:rgb(252, 239, 223);
+}
+
+.admonitionblock>table td.content {
+  border-left:1px solid antiquewhite;
+  color:rgb(80, 80, 80);
+  font-family: "Open Sans", "DejaVu Sans", sans-serif;
+}
+
+.admonitionblock>table td.icon .title {
+  color:rgb(80, 80, 80);
 }
 </style>
 </head>
