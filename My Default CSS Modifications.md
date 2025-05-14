@@ -1,4 +1,4 @@
-# CSS Modifications to Default Asciidoctor Stylesheet
+# My CSS Modifications to the Default Asciidoctor Stylesheet
 
 I copied [asciidoctor-default.css](https://cdn.jsdelivr.net/gh/asciidoctor/asciidoctor@2.0/data/stylesheets/asciidoctor-default.css) into this repo.
 
