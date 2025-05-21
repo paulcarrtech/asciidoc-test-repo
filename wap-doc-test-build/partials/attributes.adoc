@@ -1,4 +1,5 @@
 :pdf-page-size: Letter
+// The folloing conditionals for imagesdir might not be necessary if the build .adoc files are placed in a folder at the same level as /images?
 ifdef::backend-pdf[]
 :imagesdir: images
 endif::[]
