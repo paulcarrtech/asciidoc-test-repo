@@ -6,7 +6,11 @@
 
     -a stylesheet=<directory_name/file_name.css>
 
-### Specify the Output Directory
+### Specify the Output File and (Optional) Directory
+
+    -o <optional_directory_name>/<file_name.html>
+
+### Specify Only the Output Directory
 
     -D <directory_name>
 
@@ -14,7 +18,7 @@
 
 ### Apply a Built-In Theme
 
-    --theme <built-in_theme_name> 
+    --theme <built-in_theme_name>
 
 Built-in theme names include:
 
