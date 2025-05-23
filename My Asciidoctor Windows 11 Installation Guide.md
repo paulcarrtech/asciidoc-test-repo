@@ -6,11 +6,33 @@
 
 ## Install Ruby
 
+1. Download and install [RubyInstaller](https://rubyinstaller.org/downloads/).
+
 ## Install Asciidoctor
+
+1. Open **PowerShell**.
+1. Run the following command:
+
+```
+gem install asciidoctor
+```
+
+For more detail, see [Gem Install](https://docs.asciidoctor.org/asciidoctor/latest/install/ruby-packaging/#gem-install). **But ignore** the instructions about RVM.
 
 ## Install Asciidoctor PDF
 
-## Add AsciiDoc and Markdown Languages to GitHub Repo Stats
+1. Open **PowerShell**.
+1. Run the following command:
+
+```
+  gem install asciidoctor-pdf
+```
+
+For more detail, see [Install Asciidoctor PDF](https://docs.asciidoctor.org/pdf-converter/latest/install/#install-asciidoctor-pdf).
+
+## Configure a GitHub Repository
+
+### Add AsciiDoc and Markdown Languages to GitHub Repo Stats
 
 1. Add the following code to **.gitattributes**:
 
