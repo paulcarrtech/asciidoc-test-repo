@@ -16,7 +16,7 @@
 
 ## Asciidoctor PDF
 
-### Apply a Built-In Theme
+### Apply a Built-In PDF Theme
 
     --theme <built-in_theme_name>
 
@@ -29,6 +29,10 @@ Built-in theme names include:
 * *default-for-print-with-font-fallbacks*
 * *default-sans*
 * *default-sans-with-font-fallbacks*
+
+### Apply a Custom PDF Theme
+
+    -a --theme <directory_name>/<file_name>.yml
 
 ### Specify the Output Directory
 
