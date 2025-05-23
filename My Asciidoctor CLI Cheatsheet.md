@@ -32,7 +32,7 @@ Built-in theme names include:
 
 ### Apply a Custom PDF Theme
 
-    -a --theme <directory_name>/<file_name>.yml
+    --theme <directory_name>/<file_name>.yml
 
 ### Specify the Output Directory
 
