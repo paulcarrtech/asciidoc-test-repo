@@ -60,3 +60,11 @@ For more detail, see [Install Asciidoctor PDF](https://docs.asciidoctor.org/pdf-
 # Exclude vendored code from repo language stats
 <directory_name>/asciidoctor-default.css linguist-vendored
 ```
+### Include README.md in GitHug Repo Stats
+
+1. Add the following code to **.gitattributes**:
+
+```
+# Include README.md in repo language stats
+README.md -linguist-documentation
+```

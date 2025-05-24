@@ -8,3 +8,5 @@
 *.html linguist-generated
 # Exclude vendored code from repo language stats
 wap-doc-test-build/stylesheets/asciidoctor-default.css linguist-vendored
+# Include README.md in repo language stats
+README.md -linguist-documentation
