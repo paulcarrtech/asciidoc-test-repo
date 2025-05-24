@@ -48,7 +48,7 @@ For more detail, see [Install Asciidoctor PDF](https://docs.asciidoctor.org/pdf-
 
 ## Configure a GitHub Repository
 
-### Add AsciiDoc, Markdown, and YAML to GitHub Repo Stats
+### Include AsciiDoc, Markdown, and YAML to GitHub Repo Stats
 
 1. Add the following code to **.gitattributes**:
 
