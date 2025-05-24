@@ -6,4 +6,4 @@
 # Exclude generated HTML from repo language stats
 *.html linguist-generated
 # Exclude vendored code from repo language stats
-stylesheets/asciidoctor-default.css linguist-vendored
+wap-doc-test-build/stylesheets/asciidoctor-default.css linguist-vendored
