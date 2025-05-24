@@ -32,6 +32,7 @@ volta install node
 For more detail, see Volta's [Getting Started](https://docs.volta.sh/guide/getting-started) guide.
 
 ### Manually Install a Specific Version of Node.js
+
 1. Find the latest LTS release version number at [Node.js Releases](https://nodejs.org/en/about/previous-releases).
 1. Open **PowerShell**.
 1. Run the following command:
