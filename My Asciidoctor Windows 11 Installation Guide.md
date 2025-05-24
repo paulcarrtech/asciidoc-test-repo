@@ -6,7 +6,7 @@
 
 ### Install the VS Code AsciiDoc Extension
 
-1. Install Asciidoctor's AsciiDoc extension for visual studio code:
+1. Install Asciidoctor's AsciiDoc extension for VS Code:
     * from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=asciidoctor.asciidoctor-vscode)
     * or from the VS Code extensions browser:
       * select **View > Extensions** 
@@ -76,7 +76,7 @@ For more detail, see [Install Asciidoctor PDF](https://docs.asciidoctor.org/pdf-
 # Exclude vendored code from repo language stats
 <directory_name>/asciidoctor-default.css linguist-vendored
 ```
-### Include README.md in GitHug Repo Stats
+### Include README.md in GitHub Repo Stats
 
 1. Add the following code to **.gitattributes**:
 
