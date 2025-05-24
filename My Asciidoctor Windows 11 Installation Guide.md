@@ -56,5 +56,5 @@ For more detail, see [Install Asciidoctor PDF](https://docs.asciidoctor.org/pdf-
 1. Add the following code to **.gitattributes**:
 
 ```
-stylesheets/asciidoctor-default.css linguist-generated
+stylesheets/asciidoctor-default.css linguist-vendored
 ```
