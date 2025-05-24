@@ -44,8 +44,8 @@ For more detail, see Volta's [Getting Started](https://docs.volta.sh/guide/getti
 
 ## Install Antora Locally to Each Project
 
-1. Open VS Code
-1. Select **CTRL+`** to open **Terminal**
+1. Open **VS Code**.
+1. Select **CTRL+`** to open **Terminal**.
 1. Run the following command:
 
 ```
