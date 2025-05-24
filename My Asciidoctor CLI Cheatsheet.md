@@ -2,21 +2,21 @@
 
 ## Asciidoctor
 
-### Apply a Custom CSS Stylesheet
+### Asciidoctor - Apply a Custom Stylesheet
 
     -a stylesheet=<directory_name/file_name.css>
 
-### Specify the Output File and (Optional) Directory
+### Asciidoctor - Specify the Output File and (Optional) Directory
 
     -o <optional_directory_name>/<file_name.html>
 
-### Specify Only the Output Directory
+### Asciidoctor - Specify Only the Output Directory
 
     -D <directory_name>
 
 ## Asciidoctor PDF
 
-### Apply a Built-In PDF Theme
+### Asciidoctor PDF - Apply a Built-In Theme
 
     --theme <built-in_theme_name>
 
@@ -30,11 +30,11 @@ Built-in theme names include:
 * *default-sans*
 * *default-sans-with-font-fallbacks*
 
-### Apply a Custom PDF Theme
+### Asciidoctor PDF - Apply a Custom Theme
 
     --theme <directory_name>/<file_name>.yml
 
-### Specify the Output Directory
+### Asciidoctor PDF - Specify the Output Directory
 
     -D <directory_name>
 
