@@ -1,6 +1,6 @@
 # My Asciidoctor CLI Cheatsheet
 
-## Asciidoctor
+## Asciidoctor Commands
 
 ### Asciidoctor - Apply a Custom Stylesheet
 
@@ -14,7 +14,7 @@
 
     -D <directory_name>
 
-## Asciidoctor PDF
+## Asciidoctor PDF Commands
 
 ### Asciidoctor PDF - Apply a Built-In Theme
 
