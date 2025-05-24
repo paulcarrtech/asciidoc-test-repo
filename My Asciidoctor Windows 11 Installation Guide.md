@@ -33,7 +33,7 @@ ext install asciidoctor.asciidoctor-vscode
 gem install asciidoctor
 ```
 
-For more detail, see [Gem Install](https://docs.asciidoctor.org/asciidoctor/latest/install/ruby-packaging/#gem-install). **But ignore** the instructions about RVM.
+For more detail, see Asciidoctor's [Gem Install](https://docs.asciidoctor.org/asciidoctor/latest/install/ruby-packaging/#gem-install) guide. **But ignore** the instructions about RVM.
 
 ## Install Asciidoctor PDF
 

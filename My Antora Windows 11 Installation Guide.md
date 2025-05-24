@@ -2,7 +2,45 @@
 
 ## Install Volta
 
+1. Open **PowerShell**.
+1. Run the following command:
+
+```
+winget install Volta.Volta
+```
+
+For more detail, see Volta's [Getting Started](https://docs.volta.sh/guide/getting-started) guide.
+
 ## Install Node.js
+
+### Terminology
+
+<dl>
+  <dt>LTS</dt>
+  <dd>Long-Term Support
+</dl>
+
+### Automatically Install the Latest LTS Release of Node.js
+
+1. Open **PowerShell**.
+1. Run the following command:
+
+```
+volta install node
+```
+
+For more detail, see Volta's [Getting Started](https://docs.volta.sh/guide/getting-started) guide.
+
+### Manually Install a Specific Version of Node.js
+1. Find the latest LTS release version number at [Node.js Releases](https://nodejs.org/en/about/previous-releases).
+1. Open **PowerShell**.
+1. Run the following command:
+
+```
+volta install node@<version_number>
+```
+
+For more detail, see Volta's [Getting Started](https://docs.volta.sh/guide/getting-started) guide.
 
 ## Install Antora Locally to Each Project
 
