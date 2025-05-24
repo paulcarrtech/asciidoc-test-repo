@@ -1,8 +1,8 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-# Include LMLs in repo language stats
-*.md linguist-detectable
+# Include .adoc, .md, and .yml in repo language stats
 *.adoc linguist-detectable
+*.md linguist-detectable
 *.yml linguist-detectable
 # Exclude generated HTML from repo language stats
 *.html linguist-generated

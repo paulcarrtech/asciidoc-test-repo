@@ -32,14 +32,15 @@ For more detail, see [Install Asciidoctor PDF](https://docs.asciidoctor.org/pdf-
 
 ## Configure a GitHub Repository
 
-### Add AsciiDoc and Markdown Languages to GitHub Repo Stats
+### Add AsciiDoc, Markdown, and YAML to GitHub Repo Stats
 
 1. Add the following code to **.gitattributes**:
 
 ```
-# Include LMLs in repo language stats
-*.md linguist-detectable
+# Include .adoc, .md, and .yml in repo language stats
 *.adoc linguist-detectable
+*.md linguist-detectable
+*.yml linguist-detectable
 ```
 
 ### Remove Generated HTML from GitHub Repo Stats
