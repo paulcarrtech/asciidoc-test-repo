@@ -14,7 +14,7 @@
     * or from VS Code *Quick Open*
       * select **Go > Go to File** 
       * or select **CTRL+P** 
-      * and enter the following command:
+      * and run the following command:
 
 ```
 ext install asciidoctor.asciidoctor-vscode  
