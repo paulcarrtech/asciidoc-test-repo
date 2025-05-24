@@ -57,5 +57,6 @@ For more detail, see [Install Asciidoctor PDF](https://docs.asciidoctor.org/pdf-
 1. Add the following code to **.gitattributes**:
 
 ```
+# Exclude vendored code from repo language stats
 <directory_name>/asciidoctor-default.css linguist-vendored
 ```
