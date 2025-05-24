@@ -51,12 +51,28 @@ For more detail, see Volta's [Getting Started](https://docs.volta.sh/guide/getti
 ```
 cd <project_directory_name>
 ```
-4. ...
+
+4. Enter the following command:
+
+```
+node -e "fs.writeFileSync('package.json', '{}')" && npm i -D -E @antora/cli@<version number>
+```
+
+5. ...
 
 For more detail, see [Install Antora](https://docs.antora.org/antora/latest/install/install-antora/).
+
+## Configure a GitHub Repository
+
+### Configure .gitattributes
+
+### Configure GitHub Pages
+
+
 
 ## Set Up Playbooks
 
 ## Organize Content Files
 
 ## Generate Sites
+
