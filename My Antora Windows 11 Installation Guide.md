@@ -44,6 +44,17 @@ For more detail, see Volta's [Getting Started](https://docs.volta.sh/guide/getti
 
 ## Install Antora Locally to Each Project
 
+1. Open VS Code
+1. Select **CTRL+`** to open **Terminal**
+1. Enter the following command:
+
+```
+cd <project_directory_name>
+```
+4. ...
+
+For more detail, see [Install Antora](https://docs.antora.org/antora/latest/install/install-antora/).
+
 ## Set Up Playbooks
 
 ## Organize Content Files
