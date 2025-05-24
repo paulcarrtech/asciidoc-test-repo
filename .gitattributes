@@ -3,3 +3,5 @@
 # Include LMLs in repo language stats
 *.md linguist-detectable
 *.adoc linguist-detectable
+# Exclude generated HTML from repo language stats
+*.html linguist-generated

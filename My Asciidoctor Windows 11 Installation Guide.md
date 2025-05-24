@@ -42,3 +42,11 @@ For more detail, see [Install Asciidoctor PDF](https://docs.asciidoctor.org/pdf-
 *.adoc linguist-detectable
 ```
 
+### Remove Generated HTML from GitHub Repo States
+
+1. Add the following code to **.gitattributes**:
+
+```
+# Exclude generated HTML from repo language stats
+*.html linguist-generated
+```
