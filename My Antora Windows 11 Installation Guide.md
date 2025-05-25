@@ -85,11 +85,14 @@ For more detail, see [Install Antora](https://docs.antora.org/antora/latest/inst
 
 #### Configure GitHub Pages
 
-
-
 ### Set Up Playbooks
+
+For more detail, see [Antora Playbook Introduction](https://docs.antora.org/antora/latest/playbook/).
 
 ### Organize Content Files
 
+For more detail, see [How to Organize Your Content Files](https://docs.antora.org/antora/latest/organize-content-files/).
+
 ### Generate Sites
 
+For more detail, see [Run Antora to Generate Your Site](https://docs.antora.org/antora/latest/run-antora/).
