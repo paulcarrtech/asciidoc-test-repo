@@ -1,5 +1,7 @@
 # DRAFT - My Asciidoctor Windows 11 Installation Guide
 
+The following instructions assume a GitHub repository is ready to start working from.
+
 ## Install VS Code
 
 1. Download and install [Visual Studio Code](https://code.visualstudio.com/download) (VS Code).
@@ -46,7 +48,7 @@ For more detail, see Asciidoctor's [Gem Install](https://docs.asciidoctor.org/as
 
 For more detail, see [Install Asciidoctor PDF](https://docs.asciidoctor.org/pdf-converter/latest/install/#install-asciidoctor-pdf).
 
-## Configure a GitHub Repository
+## Configure the GitHub Repository
 
 ### Include AsciiDoc, Markdown, and YAML to GitHub Repo Stats
 

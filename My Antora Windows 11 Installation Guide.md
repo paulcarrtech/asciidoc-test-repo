@@ -1,5 +1,7 @@
 # DRAFT - My Antora Windows 11 Installation Guide
 
+The following instructions assume a GitHub repository is ready to start working from.
+
 ## Install Volta
 
 1. Open **PowerShell**.
@@ -73,7 +75,7 @@ npx antora -v
 
 For more detail, see [Install Antora](https://docs.antora.org/antora/latest/install/install-antora/).
 
-## Configure a GitHub Repository
+## Configure the GitHub Repository
 
 ### Configure .gitattributes
 
