@@ -1,4 +1,4 @@
-# DRAFT - My Asciidoctor Windows 11 Installation Guide
+# My Asciidoctor Windows 11 Installation Guide
 
 The following instructions assume a GitHub repository is ready to start working from.
 

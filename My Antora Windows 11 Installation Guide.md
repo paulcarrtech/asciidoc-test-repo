@@ -103,6 +103,15 @@ For more detail, see [Install Antora](https://docs.antora.org/antora/latest/inst
 <directory_name>/package.json linguist-vendored
 ```
 
+#### Include README.md in GitHub Repo Stats
+
+1. Add the following code to **.gitattributes**:
+
+```
+# Include README.md in repo language stats
+README.md -linguist-documentation
+```
+
 #### Configure GitHub Pages
 
 ### Set Up Playbooks
