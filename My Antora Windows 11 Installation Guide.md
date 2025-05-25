@@ -83,6 +83,15 @@ For more detail, see [Install Antora](https://docs.antora.org/antora/latest/inst
 
 #### Configure .gitattributes
 
+##### Exclude Generated HTML from GitHub Repo Stats
+
+1. Add the following code to **.gitattributes**:
+
+```
+# Exclude generated HTML from repo language stats
+*.html linguist-generated
+```
+
 ##### Exclude Vendored Code from GitHub Repo Stats
 
 1. Add the following code to **.gitattributes**:
