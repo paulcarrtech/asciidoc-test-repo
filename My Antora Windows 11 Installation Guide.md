@@ -2,7 +2,9 @@
 
 The following instructions assume a GitHub repository is ready to start working from.
 
-## Install Volta
+## First-Time Installation
+
+### Install Volta
 
 1. Open **PowerShell**.
 1. Run the following command:
@@ -13,16 +15,16 @@ winget install Volta.Volta
 
 For more detail, see Volta's [Getting Started](https://docs.volta.sh/guide/getting-started) guide.
 
-## Install Node.js
+### Install Node.js
 
-### Terminology
+#### Node.js Terminology
 
 <dl>
   <dt>LTS</dt>
   <dd>Long-Term Support
 </dl>
 
-### Automatically Install the Latest LTS Release of Node.js
+#### Option 1: Automatically Install the Latest LTS Release of Node.js
 
 1. Open **PowerShell**.
 1. Run the following command:
@@ -33,7 +35,7 @@ volta install node
 
 For more detail, see Volta's [Getting Started](https://docs.volta.sh/guide/getting-started) guide.
 
-### Manually Install a Specific Version of Node.js
+#### Option 2: Manually Install a Specific Version of Node.js
 
 1. Find the latest LTS release version number at [Node.js Releases](https://nodejs.org/en/about/previous-releases).
 1. Open **PowerShell**.
@@ -45,7 +47,9 @@ volta install node@<version_number>
 
 For more detail, see Volta's [Getting Started](https://docs.volta.sh/guide/getting-started) guide.
 
-## Install Antora Locally to Each Project
+## Per-Project Installation
+
+### Install Antora Locally to Each Project
 
 1. Open **VS Code**.
 1. Select **CTRL+`** to open **Terminal**.
@@ -75,17 +79,17 @@ npx antora -v
 
 For more detail, see [Install Antora](https://docs.antora.org/antora/latest/install/install-antora/).
 
-## Configure the GitHub Repository
+### Configure the GitHub Repository
 
-### Configure .gitattributes
+#### Configure .gitattributes
 
-### Configure GitHub Pages
+#### Configure GitHub Pages
 
 
 
-## Set Up Playbooks
+### Set Up Playbooks
 
-## Organize Content Files
+### Organize Content Files
 
-## Generate Sites
+### Generate Sites
 

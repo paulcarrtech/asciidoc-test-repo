@@ -2,11 +2,13 @@
 
 The following instructions assume a GitHub repository is ready to start working from.
 
-## Install VS Code
+## First-Time Installation
+
+### Install VS Code
 
 1. Download and install [Visual Studio Code](https://code.visualstudio.com/download) (VS Code).
 
-### Install the VS Code AsciiDoc Extension
+#### Install the VS Code AsciiDoc Extension
 
 1. Install Asciidoctor's AsciiDoc extension for VS Code:
     * from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=asciidoctor.asciidoctor-vscode)
@@ -22,11 +24,11 @@ The following instructions assume a GitHub repository is ready to start working 
 ext install asciidoctor.asciidoctor-vscode  
 ``` 
 
-## Install Ruby
+### Install Ruby
 
 1. Download and install [RubyInstaller](https://rubyinstaller.org/downloads/).
 
-## Install Asciidoctor
+### Install Asciidoctor
 
 1. Open **PowerShell**.
 1. Run the following command:
@@ -37,7 +39,7 @@ gem install asciidoctor
 
 For more detail, see Asciidoctor's [Gem Install](https://docs.asciidoctor.org/asciidoctor/latest/install/ruby-packaging/#gem-install) guide. **But ignore** the instructions about RVM.
 
-## Install Asciidoctor PDF
+#### Install Asciidoctor PDF
 
 1. Open **PowerShell**.
 1. Run the following command:
@@ -48,9 +50,11 @@ For more detail, see Asciidoctor's [Gem Install](https://docs.asciidoctor.org/as
 
 For more detail, see [Install Asciidoctor PDF](https://docs.asciidoctor.org/pdf-converter/latest/install/#install-asciidoctor-pdf).
 
-## Configure the GitHub Repository
+## Per-Project Installation
 
-### Include AsciiDoc, Markdown, and YAML to GitHub Repo Stats
+### Configure the GitHub Repository
+
+#### Include AsciiDoc, Markdown, and YAML in GitHub Repo Stats
 
 1. Add the following code to **.gitattributes**:
 
@@ -61,7 +65,7 @@ For more detail, see [Install Asciidoctor PDF](https://docs.asciidoctor.org/pdf-
 *.yml linguist-detectable
 ```
 
-### Remove Generated HTML from GitHub Repo Stats
+#### Remove Generated HTML from GitHub Repo Stats
 
 1. Add the following code to **.gitattributes**:
 
@@ -70,7 +74,7 @@ For more detail, see [Install Asciidoctor PDF](https://docs.asciidoctor.org/pdf-
 *.html linguist-generated
 ```
 
-### Remove Vendored Code from GitHub Repo Stats
+#### Remove Vendored Code from GitHub Repo Stats
 
 1. Add the following code to **.gitattributes**:
 
@@ -78,7 +82,7 @@ For more detail, see [Install Asciidoctor PDF](https://docs.asciidoctor.org/pdf-
 # Exclude vendored code from repo language stats
 <directory_name>/asciidoctor-default.css linguist-vendored
 ```
-### Include README.md in GitHub Repo Stats
+#### Include README.md in GitHub Repo Stats
 
 1. Add the following code to **.gitattributes**:
 
