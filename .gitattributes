@@ -7,6 +7,9 @@
 # Exclude generated HTML from repo language stats
 *.html linguist-generated
 # Exclude vendored code from repo language stats
+antora-mockup/node_modules/** linguist-vendored
+antora-mockup/package-lock.json linguist-vendored
+antora-mockup/package.json linguist-vendored
 wap-doc-test-build/stylesheets/asciidoctor-default.css linguist-vendored
 # Include README.md in repo language stats
 README.md -linguist-documentation

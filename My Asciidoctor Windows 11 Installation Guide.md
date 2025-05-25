@@ -65,7 +65,7 @@ For more detail, see [Install Asciidoctor PDF](https://docs.asciidoctor.org/pdf-
 *.yml linguist-detectable
 ```
 
-#### Remove Generated HTML from GitHub Repo Stats
+#### Exclude Generated HTML from GitHub Repo Stats
 
 1. Add the following code to **.gitattributes**:
 
@@ -74,7 +74,7 @@ For more detail, see [Install Asciidoctor PDF](https://docs.asciidoctor.org/pdf-
 *.html linguist-generated
 ```
 
-#### Remove Vendored Code from GitHub Repo Stats
+#### Exclude Vendored Code from GitHub Repo Stats
 
 1. Add the following code to **.gitattributes**:
 

@@ -83,6 +83,17 @@ For more detail, see [Install Antora](https://docs.antora.org/antora/latest/inst
 
 #### Configure .gitattributes
 
+##### Exclude Vendored Code from GitHub Repo Stats
+
+1. Add the following code to **.gitattributes**:
+
+```
+# Exclude vendored code from repo language stats
+<directory_name>/node_modules/** linguist-vendored
+<directory_name>/package-lock.json linguist-vendored
+<directory_name>/package.json linguist-vendored
+```
+
 #### Configure GitHub Pages
 
 ### Set Up Playbooks
