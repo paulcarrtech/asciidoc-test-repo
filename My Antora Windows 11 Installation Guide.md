@@ -118,6 +118,23 @@ README.md -linguist-documentation
 
 ### Set Up Playbooks
 
+This is a basic playbook, written in YAML:
+
+```
+site:
+  title: <site_name>
+  url: <url>
+  start_page: <component_name>::index.adoc
+content:
+  sources:
+  - url: <repo_url>.git
+  start_path: <content_root_directory>
+ui:
+  bundle:
+    url: <url>
+    snapshot: true
+```
+
 For more detail, see:
 
 * [Antora Playbook Introduction](https://docs.antora.org/antora/latest/playbook/)
