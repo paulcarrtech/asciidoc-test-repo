@@ -155,6 +155,11 @@ For more detail, see:
 * [Repositories and Content Source Roots](https://docs.antora.org/antora/latest/content-source-repositories/)
 * [Content Source Versioning Methods](https://docs.antora.org/antora/latest/content-source-versioning-methods/)
 * [Standard File and Directory Set](https://docs.antora.org/antora/latest/standard-directories/)
+
+### Configure antora.yml
+
+For more detail, see:
+
 * [What’s antora.yml?](https://docs.antora.org/antora/latest/component-version-descriptor/)
 
 
