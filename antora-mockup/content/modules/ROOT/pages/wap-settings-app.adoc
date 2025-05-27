@@ -1,11 +1,11 @@
-= Connecting Through the Settings App
+= Connecting to a WAP Through the Settings App
 
-Connect to a WAP through the *Settings* app:
+You can connect to a wireless access point (WAP) through the *Settings* app:
 
 . Tap the *Settings* app on your *Home Screen* or in your *App Library*.
 . Tap *Wi-Fi* to manage your settings.
 
-image::settings-wi-fi.jpg["Screenshot of the Wi-Fi settings screen, including the Wi-Fi toggle switch and Networks list",375,667,pdfwidth=33%]
+image::../images/settings-wi-fi.jpg["Screenshot of the Wi-Fi settings screen, including the Wi-Fi toggle switch and Networks list",375,667,pdfwidth=33%]
 
 [start=3]
 . If *Wi-Fi* is off, tap it on.

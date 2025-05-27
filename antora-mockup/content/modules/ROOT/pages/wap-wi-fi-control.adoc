@@ -1,11 +1,17 @@
-= Expanding the Wi-Fi Control
+= Connecting to a WAP Through the Wi-Fi Control
 
-. If the *Wi-Fi* image:wi-fi-control.jpg[Icon for the Wi-Fi control in Control Center,20,20] control is present in *Control Center*, complete the following steps:
+You can connect to a wireless access point (WAP) through the *Wi-Fi* control.
+
+include::../partials/wap-control-center.adoc[leveloffset=+1]
+
+== Expand the Wi-Fi Control and Connect to the WAP
+
+. If the *Wi-Fi* image:../images/wi-fi-control.jpg[Icon for the Wi-Fi control in Control Center,20,20] control is present in *Control Center*, complete the following steps:
 
 * If *Wi-Fi* is off, tap it on.
 * Touch and hold *Wi-Fi* to display the list of available networks.
 
-image::control-center-networks.jpg[Screenshot of the list of available networks,375,667,pdfwidth=33%]
+image::../images/control-center-networks.jpg[Screenshot of the list of available networks,375,667,pdfwidth=33%]
 
 [start=2]
 . Tap the name of the network you want to join.
