@@ -114,9 +114,15 @@ README.md -linguist-documentation
 
 #### Configure GitHub Pages
 
+...
+
 ### Set Up Playbooks
 
-For more detail, see [Antora Playbook Introduction](https://docs.antora.org/antora/latest/playbook/).
+
+
+For more detail, see:
+* [Antora Playbook Introduction](https://docs.antora.org/antora/latest/playbook/)
+* [Set Up a Playbook](https://docs.antora.org/antora/latest/playbook/set-up-playbook/)
 
 ### Organize Content Files
 
