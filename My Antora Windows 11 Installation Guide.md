@@ -159,7 +159,7 @@ This is the standard file and directory set:
       pages
       nav.adoc
 ```
-The **modules** directory must contain either or both of the following:
+The **modules** directory must contain **either** *or* **both** of the following:
 
 * a **ROOT** module directory
 * at least one named module directory
