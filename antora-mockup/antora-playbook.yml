@@ -5,9 +5,8 @@ site:
 content:
   sources:
   - url: https://github.com/paulcarrtech/asciidoc-test-repo.git
-  start_path: antora-mockup
+  start_path: antora-mockup/content
 ui:
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
     snapshot: true
-

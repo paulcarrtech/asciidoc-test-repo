@@ -1,0 +1,31 @@
+= How to Connect Your {iphone} to a Wireless Access Point
+:toc:
+:toclevels: 4
+include::../partials/attributes.adoc[]
+
+<<<
+
+== Connect Your {iphone} to a Wireless Access Point
+
+You can connect your {iphone} to a wireless access point (WAP) through the *Settings* app or *Control Center*.
+
+Connecting to a WAP allows your {iphone} to join a network wirelessly.
+
+<<<
+
+// Connecting Through the Settings App
+include::../partials/wap-settings-app.adoc[leveloffset=+2]
+
+<<<
+
+// Connecting Through Control Center
+include::../partials/wap-control-center.adoc[leveloffset=+2]
+
+// Expanding the Connectivity Group
+include::../partials/wap-connectivity-group.adoc[leveloffset=+3]
+
+// Expanding the Wi-Fi Control
+include::../partials/wap-wi-fi-control.adoc[leveloffset=+3]
+
+// Copyright Declaration
+include::../partials/copyright-and-tm.adoc[]

@@ -118,15 +118,45 @@ README.md -linguist-documentation
 
 ### Set Up Playbooks
 
-
-
 For more detail, see:
+
 * [Antora Playbook Introduction](https://docs.antora.org/antora/latest/playbook/)
 * [Set Up a Playbook](https://docs.antora.org/antora/latest/playbook/set-up-playbook/)
 
 ### Organize Content Files
 
-For more detail, see [How to Organize Your Content Files](https://docs.antora.org/antora/latest/organize-content-files/).
+This is the standard file and directory set:
+
+```
+<content_root_name>
+  antora.yml
+  modules
+    ROOT
+      attachments
+      examples
+      images
+      pages
+      partials
+      nav.adoc
+    <named_module>
+      pages
+      nav.adoc
+```
+The **modules** directory must contain either or both of the following:
+
+* a **ROOT** module directory
+* at least one named module directory
+
+Module directories must contain at lease one child directory. Including **nav.adoc** is optional.
+
+For more detail, see:
+
+* [How to Organize Your Content Files](https://docs.antora.org/antora/latest/organize-content-files/)
+* [Repositories and Content Source Roots](https://docs.antora.org/antora/latest/content-source-repositories/)
+* [Content Source Versioning Methods](https://docs.antora.org/antora/latest/content-source-versioning-methods/)
+* [Standard File and Directory Set](https://docs.antora.org/antora/latest/standard-directories/)
+* [What’s antora.yml?](https://docs.antora.org/antora/latest/component-version-descriptor/)
+
 
 ### Generate Sites
 

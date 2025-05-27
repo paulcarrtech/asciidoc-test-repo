@@ -1,0 +1,9 @@
+= Connecting Through Control Center
+
+Connect to a WAP through *Control Center*:
+
+. Swipe up from the bottom of your {iphone} screen to open *Control Center*.
+
+image::control-center.jpg[Screenshot of Control Center,375,667,pdfwidth=33%]
+
+Depending on how your *Control Center* is configured, you can access *Wi-Fi* by expanding the *Connectivity* group or the *Wi-Fi* control.
