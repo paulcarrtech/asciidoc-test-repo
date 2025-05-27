@@ -1,5 +1,3 @@
-NOTE: _This note and the following paragraph are single sourced from a separate file._
-
 Once your {iphone} successfully connects, the network name will appear with a checkmark above the *Networks* list.
 
 image::settings-wi-fi-connected.jpg["Screenshot of the Wi-Fi settings screen, including a successfully connected network",375,667,pdfwidth=33%]

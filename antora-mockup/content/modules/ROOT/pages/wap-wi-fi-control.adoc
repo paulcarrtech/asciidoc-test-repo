@@ -12,8 +12,8 @@ image::control-center-networks.jpg[Screenshot of the list of available networks,
 . If prompted, enter the password in the *Password* field, then tap *Join*.
 
 // CAUTION
-include::caution-password-protection.adoc[]
+include::../partials/caution-password-protection.adoc[]
 
 // SUCCESSFUL CONNECTION
-include::wap-successful-connection.adoc[]
+include::../partials/wap-successful-connection.adoc[]
 

@@ -14,18 +14,18 @@ Connecting to a WAP allows your {iphone} to join a network wirelessly.
 <<<
 
 // Connecting Through the Settings App
-include::../partials/wap-settings-app.adoc[leveloffset=+2]
+include::../modules/root/partials/wap-settings-app.adoc[leveloffset=+2]
 
 <<<
 
 // Connecting Through Control Center
-include::../partials/wap-control-center.adoc[leveloffset=+2]
+include::../modules/root/partials/wap-control-center.adoc[leveloffset=+2]
 
 // Expanding the Connectivity Group
-include::../partials/wap-connectivity-group.adoc[leveloffset=+3]
+include::../modules/root/partials/wap-connectivity-group.adoc[leveloffset=+3]
 
 // Expanding the Wi-Fi Control
-include::../partials/wap-wi-fi-control.adoc[leveloffset=+3]
+include::../modules/root/partials/wap-wi-fi-control.adoc[leveloffset=+3]
 
 // Copyright Declaration
-include::../partials/copyright-and-tm.adoc[]
+include::../modules/root/partials/copyright-and-tm.adoc[]
