@@ -1,6 +1,17 @@
 # DRAFT - My Antora Windows 11 Installation Guide
 
-The following instructions assume a GitHub repository is ready to start working from.
+## Assumptions
+
+* [x] A GitHub repository is ready to start working from.
+
+## Contents
+
+* [First-Time Installation](#first-time-installation)
+  * [Install Volta](#install-volta)
+  * [Install Node.js with Volta](#install-nodejs-with-volta)
+* [Per-Project Installation](#per-project-installation)
+  * [Install Antora Locally to Each Project](#install-antora-locally-to-each-project)
+  * ...
 
 ## First-Time Installation
 
@@ -15,7 +26,7 @@ winget install Volta.Volta
 
 For more detail, see Volta's [Getting Started](https://docs.volta.sh/guide/getting-started) guide.
 
-### Install Node.js
+### Install Node.js with Volta
 
 #### Node.js Terminology
 
