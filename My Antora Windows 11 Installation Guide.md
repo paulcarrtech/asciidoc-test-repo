@@ -4,8 +4,8 @@
 
 * [x] A GitHub repository is ready to start working from.
 * [x] That GitHub repository contains these files in its root:
-  * **.gitattributes**
-  * **README.md** 
+  * [x] **.gitattributes**
+  * [x] **README.md** 
 
 ## Contents
 
@@ -16,6 +16,14 @@
   * [Install Antora Locally to Each Project](#install-antora-locally-to-each-project)
   * [Configure GitHub Linguist](#configure-github-linguist)
   * [Configure GitHub Pages or Another Static Site Host](#configure-github-pages-or-another-static-site-host)
+  * [Configure the Antora Playbook](#configure-the-antora-playbook)
+  * [Organize Antora Content Files](#organize-antora-content-files)
+  * [Configure antora.yml](#configure-antorayml)
+  * [Configure Supplemental UI Directories](#configure-supplemental-ui-directories)
+  * [Configure Lunr Search](#configure-lunr-search)
+  * [Generate Sites Locally](#generate-sites-locally)
+  * [Deploy Sites Online](#deploy-sites-online)
+
 
 ## First-Time Installation
 
@@ -131,7 +139,7 @@ README.md -linguist-documentation
 
 ...
 
-### Set Up the Antora Playbook
+### Configure the Antora Playbook
 
 This is a basic playbook, written in YAML:
 
