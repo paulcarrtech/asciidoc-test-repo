@@ -1,8 +1,11 @@
 # DRAFT - My Antora Windows 11 Installation Guide
 
-## Assumptions
+## Assumption(s)
 
 * [x] A GitHub repository is ready to start working from.
+* [x] That GitHub repository contains these files in its root:
+  * **.gitattributes**
+  * **README.md** 
 
 ## Contents
 
@@ -11,7 +14,8 @@
   * [Install Node.js with Volta](#install-nodejs-with-volta)
 * [Per-Project Installation](#per-project-installation)
   * [Install Antora Locally to Each Project](#install-antora-locally-to-each-project)
-  * ...
+  * [Configure GitHub Linguist](#configure-github-linguist)
+  * [Configure GitHub Pages or Another Static Site Host](#configure-github-pages-or-another-static-site-host)
 
 ## First-Time Installation
 
@@ -90,11 +94,11 @@ npx antora -v
 
 For more detail, see [Install Antora](https://docs.antora.org/antora/latest/install/install-antora/).
 
-### Configure the GitHub Repository
+### Configure GitHub Linguist
 
-#### Configure .gitattributes
+**Note:** These Linguist configuration steps affect how language stats are displayed *only on public* repositories. Skip them for private repositories.
 
-##### Exclude Generated HTML from GitHub Repo Stats
+#### Exclude Generated HTML from GitHub Repo Stats
 
 1. Add the following code to **.gitattributes**:
 
@@ -103,7 +107,7 @@ For more detail, see [Install Antora](https://docs.antora.org/antora/latest/inst
 *.html linguist-generated
 ```
 
-##### Exclude Vendored Code from GitHub Repo Stats
+#### Exclude Vendored Code from GitHub Repo Stats
 
 1. Add the following code to **.gitattributes**:
 
@@ -123,11 +127,11 @@ For more detail, see [Install Antora](https://docs.antora.org/antora/latest/inst
 README.md -linguist-documentation
 ```
 
-#### Configure GitHub Pages
+### Configure GitHub Pages or Another Static Site Host
 
 ...
 
-### Set Up Playbooks
+### Set Up the Antora Playbook
 
 This is a basic playbook, written in YAML:
 
@@ -139,6 +143,7 @@ site:
 content:
   sources:
   - url: <repo_url>.git
+  branches: <branch_name(s)>
   start_path: <content_root_directory>
 ui:
   bundle:
@@ -151,7 +156,15 @@ For more detail, see:
 * [Antora Playbook Introduction](https://docs.antora.org/antora/latest/playbook/)
 * [Set Up a Playbook](https://docs.antora.org/antora/latest/playbook/set-up-playbook/)
 
-### Organize Content Files
+#### Configure Content Sources in the Playbook
+
+...
+
+#### Configure the UI in the Playbook
+
+...
+
+### Organize Antora Content Files
 
 This is the standard file and directory set:
 
@@ -190,7 +203,26 @@ For more detail, see:
 
 * [What’s antora.yml?](https://docs.antora.org/antora/latest/component-version-descriptor/)
 
+### Configure Supplemental UI Directories
 
-### Generate Sites
+...
+
+#### Configure Supplmental UI in the Antora Playbook
+
+...
+
+### Configure Lunr Search
+
+...
+
+#### Configure Lunr Search in the Antora Playbook
+
+...
+
+### Generate Sites Locally
 
 For more detail, see [Run Antora to Generate Your Site](https://docs.antora.org/antora/latest/run-antora/).
+
+### Deploy Sites Online
+
+...
