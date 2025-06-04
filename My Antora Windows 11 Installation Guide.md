@@ -105,7 +105,7 @@ For more detail, see [Install Antora](https://docs.antora.org/antora/latest/inst
 ### Configure GitHub Linguist
 
 > [!TIP] 
->These Linguist configuration steps affect how language stats are displayed *only on public* repositories. 
+> These Linguist configuration steps affect how language stats are displayed *only on public* repositories. 
 >
 > Skip these steps for private repositories.
 
@@ -158,8 +158,8 @@ site:
 content:
   sources:
   - url: <repo_url>.git
-  branches: <branch_name(s)>
-  start_path: <content_root_directory>
+    branches: <branch_name(s)>
+    start_path: <content_root_directory>
 ui:
   bundle:
     url: <url>
@@ -167,7 +167,7 @@ ui:
 ```
 
 > [!IMPORTANT]
-> The playbook file extension must be `.yml`.   
+> The playbook file extension must be **.yml**.   
 
 For more detail, see:
 
@@ -178,19 +178,40 @@ For more detail, see:
 
 ##### URL Key
 
-If the content source is the same repository that contains the playbook, configure the URL as follows:
+1. If the content source is the same repository that contains the playbook, configure the URL as follows:
 
 ```yml
 content:
   sources:
-  - url: .   
+  - url: .
+    branches: <branch_name(s)>
+    start_path: <content_root_directory>     
 ```
-When the content source(s) are from external repositories, configure the URL as follows:
+2. If the content source is from an external repository, configure the URL as follows:
 
 ```yml
 content:
   sources:
   - url: <repo_url>.git
+    branches: <branch_name(s)>
+    start_path: <content_root_directory>
+```
+
+3. If the content is spread across more than one repository, configure as many URLs as required:
+
+```yml
+content:
+  sources:
+  - url: <repo_url>.git
+    branches: <branch_name(s)>
+    start_path: <content_root_directory>
+  - url: <repo_url>.git
+    branches: <branch_name(s)>
+    start_path: <content_root_directory>
+  - url: <repo_url>.git
+    branches: <branch_name(s)>
+    start_path: <content_root_directory>
+# ...        
 ```
 
 For more detail, see [URLs for Content Sources](https://docs.antora.org/antora/latest/playbook/content-source-url/). 
@@ -201,13 +222,15 @@ The `branches` key can take the following values.
 
 | Value | Description |
 | --- | --- |
-`HEAD` | The current branch of a local repository |
-| A named branch | Examples include `v9.1` or 
+| `HEAD` | Reserved value for the current branch of a local repository |
+| Branch name | Examples include `branches: v9.1` or `branches: '9.2'` |
+| Pattern | See [Specify Branches by Pattern](https://docs.antora.org/antora/latest/playbook/content-branches/#glob-pattern) |
+| Exclusion | See [Exclude Branches by Pattern](https://docs.antora.org/antora/latest/playbook/content-branches/#exclude-branches-by-pattern) |
+Filter | See [Default Branches Filter](https://docs.antora.org/antora/latest/playbook/content-branches/#default) |
+List | Any combination of the above value types, comma separated, and enclosed by square brackets, such as `branches: [HEAD, v1.*, '2.0']`
 
-
-
-
-
+> [!IMPORTANT]
+> If a value begins with a number or symbol, enclose it with single quotation marks.
 
 #### Configure the UI in the Playbook
 
@@ -249,7 +272,7 @@ For more detail, see:
 ### Configure antora.yml
 
 > [!IMPORTANT]
-> The `antora.yml` file extension must be `.yml`.  
+> The **antora.yml** file extension must be **.yml**.  
 
 For more detail, see:
 
