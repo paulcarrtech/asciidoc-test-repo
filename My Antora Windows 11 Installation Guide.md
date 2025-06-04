@@ -176,7 +176,7 @@ content:
   - url: .   
 ```
 
-For more detail, see [URLs for Content Sources](https://docs.antora.org/antora/latest/playbook/content-source-url/) 
+For more detail, see [URLs for Content Sources](https://docs.antora.org/antora/latest/playbook/content-source-url/). 
 
 ##### Branches Key
 
