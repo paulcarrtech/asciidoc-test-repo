@@ -175,14 +175,25 @@ content:
   sources:
   - url: .   
 ```
+When the content source(s) are from external repositories, configure the URL as follows:
+
+```yml
+content:
+  sources:
+  - url: <repo_url>.git
+```
 
 For more detail, see [URLs for Content Sources](https://docs.antora.org/antora/latest/playbook/content-source-url/). 
 
 ##### Branches Key
 
-The **branches:** key can take the following values:
+The `branches`{:.language-yml} key can take the following values.
 
-* ...
+| Value | Description |
+| --- | --- |
+`HEAD`{:.language-yml} | The current branch of a local repository |
+
+
 
 
 
