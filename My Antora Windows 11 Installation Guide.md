@@ -104,7 +104,10 @@ For more detail, see [Install Antora](https://docs.antora.org/antora/latest/inst
 
 ### Configure GitHub Linguist
 
-**Note:** These Linguist configuration steps affect how language stats are displayed *only on public* repositories. Skip these steps for private repositories.
+> [!TIP] 
+>These Linguist configuration steps affect how language stats are displayed *only on public* repositories. 
+>
+> Skip these steps for private repositories.
 
 #### Exclude Generated HTML from GitHub Repo Stats
 
@@ -145,7 +148,7 @@ For more detail, see GitHub Linguist [Overrides](https://github.com/github-lingu
 
 ### Configure the Antora Playbook
 
-This is a basic playbook, written in YAML:
+1. Write a basic playbook in YAML:
 
 ```yml
 site:
@@ -162,6 +165,9 @@ ui:
     url: <url>
     snapshot: true
 ```
+
+> [!IMPORTANT]
+> The playbook file extension must be `.yml`.   
 
 For more detail, see:
 
@@ -241,6 +247,9 @@ For more detail, see:
 * [Standard File and Directory Set](https://docs.antora.org/antora/latest/standard-directories/)
 
 ### Configure antora.yml
+
+> [!IMPORTANT]
+> The `antora.yml` file extension must be `.yml`.  
 
 For more detail, see:
 
