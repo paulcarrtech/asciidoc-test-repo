@@ -20,7 +20,7 @@
   * [Organize Antora Content Files](#organize-antora-content-files)
   * [Configure antora.yml](#configure-antorayml)
   * [Configure Supplemental UI Directories](#configure-supplemental-ui-directories)
-  * [Configure Lunr Search](#configure-lunr-search)
+  * [Install the Lunr Search Extension Locally to Each Project](#install-the-lunr-search-extension-locally-to-each-project)
   * [Generate Sites Locally](#generate-sites-locally)
   * [Deploy Sites Online](#deploy-sites-online)
 
