@@ -104,7 +104,7 @@ For more detail, see [Install Antora](https://docs.antora.org/antora/latest/inst
 
 ### Configure GitHub Linguist
 
-**Note:** These Linguist configuration steps affect how language stats are displayed *only on public* repositories. Skip them for private repositories.
+**Note:** These Linguist configuration steps affect how language stats are displayed *only on public* repositories. Skip these steps for private repositories.
 
 #### Exclude Generated HTML from GitHub Repo Stats
 
@@ -114,6 +114,7 @@ For more detail, see [Install Antora](https://docs.antora.org/antora/latest/inst
 # Exclude generated HTML from repo language stats
 *.html linguist-generated
 ```
+For more detail, see GitHub Linguist [Overrides](https://github.com/github-linguist/linguist/blob/main/docs/overrides.md#generated-code).
 
 #### Exclude Vendored Code from GitHub Repo Stats
 
@@ -125,6 +126,7 @@ For more detail, see [Install Antora](https://docs.antora.org/antora/latest/inst
 <directory_name>/package-lock.json linguist-vendored
 <directory_name>/package.json linguist-vendored
 ```
+For more detail, see GitHub Linguist [Overrides](https://github.com/github-linguist/linguist/blob/main/docs/overrides.md#vendored-code).
 
 #### Include README.md in GitHub Repo Stats
 
@@ -134,6 +136,8 @@ For more detail, see [Install Antora](https://docs.antora.org/antora/latest/inst
 # Include README.md in repo language stats
 README.md -linguist-documentation
 ```
+
+For more detail, see GitHub Linguist [Overrides](https://github.com/github-linguist/linguist/blob/main/docs/overrides.md#documentation).
 
 ### Configure GitHub Pages or Another Static Site Host
 
@@ -187,11 +191,12 @@ For more detail, see [URLs for Content Sources](https://docs.antora.org/antora/l
 
 ##### Branches Key
 
-The `branches`{:.language-yml} key can take the following values.
+The `branches` key can take the following values.
 
 | Value | Description |
 | --- | --- |
-`HEAD`{:.language-yml} | The current branch of a local repository |
+`HEAD` | The current branch of a local repository |
+| A named branch | Examples include `v9.1` or 
 
 
 
