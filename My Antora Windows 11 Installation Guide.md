@@ -215,7 +215,7 @@ For more detail, see:
 
 ...
 
-#### Configure Supplmental UI in the Antora Playbook
+#### Register Supplmental UI in the Antora Playbook
 
 ...
 
