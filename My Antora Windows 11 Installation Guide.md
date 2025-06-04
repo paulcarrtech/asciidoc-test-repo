@@ -219,13 +219,29 @@ For more detail, see:
 
 ...
 
-### Configure Lunr Search
+### Install the Lunr Search Extension Locally to Each Project
 
-...
+1. Open **VS Code**.
+1. Select **CTRL+`** to open **Terminal**.
+1. Run the following command:
 
-#### Configure Lunr Search in the Antora Playbook
+```
+npm i @antora/lunr-extension
+```
 
-...
+For more detail, see the Antora Lunr Extension [README](https://gitlab.com/antora/antora-lunr-extension/-/blob/main/README.adoc?ref_type=heads).
+
+
+#### Register Lunr Search in the Antora Playbook
+
+Add this code to the Antora playbook:
+
+```
+antora:
+  extensions:
+  - require: '@antora/lunr-extension'
+```
+For more detail and options, see the Antora Lunr Extension [README](https://gitlab.com/antora/antora-lunr-extension/-/blob/main/README.adoc?ref_type=heads).
 
 ### Generate Sites Locally
 
