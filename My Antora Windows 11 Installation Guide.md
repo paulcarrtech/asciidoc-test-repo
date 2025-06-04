@@ -166,6 +166,8 @@ For more detail, see:
 
 #### Configure Content Sources in the Playbook
 
+##### URL Key
+
 If the content source is the same repository that contains the playbook, configure the URL as follows:
 
 ```yml
@@ -173,6 +175,17 @@ content:
   sources:
   - url: .   
 ```
+
+For more detail, see [URLs for Content Sources](https://docs.antora.org/antora/latest/playbook/content-source-url/) 
+
+##### Branches Key
+
+The **branches:** key can take the following values:
+
+* ...
+
+
+
 
 #### Configure the UI in the Playbook
 
