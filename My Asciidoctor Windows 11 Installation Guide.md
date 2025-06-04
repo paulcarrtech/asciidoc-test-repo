@@ -20,7 +20,7 @@ The following instructions assume a GitHub repository is ready to start working 
       * or select **CTRL+P** 
       * and run the following command:
 
-```
+```sh
 ext install asciidoctor.asciidoctor-vscode  
 ``` 
 
@@ -33,7 +33,7 @@ ext install asciidoctor.asciidoctor-vscode
 1. Open **PowerShell**.
 1. Run the following command:
 
-```
+```sh
 gem install asciidoctor
 ```
 
@@ -44,7 +44,7 @@ For more detail, see Asciidoctor's [Gem Install](https://docs.asciidoctor.org/as
 1. Open **PowerShell**.
 1. Run the following command:
 
-```
+```sh
   gem install asciidoctor-pdf
 ```
 
@@ -58,7 +58,7 @@ For more detail, see [Install Asciidoctor PDF](https://docs.asciidoctor.org/pdf-
 
 1. Add the following code to **.gitattributes**:
 
-```
+```gitattributes
 # Include .adoc, .md, and .yml in repo language stats
 *.adoc linguist-detectable
 *.md linguist-detectable
@@ -69,7 +69,7 @@ For more detail, see [Install Asciidoctor PDF](https://docs.asciidoctor.org/pdf-
 
 1. Add the following code to **.gitattributes**:
 
-```
+```gitattributes
 # Exclude generated HTML from repo language stats
 *.html linguist-generated
 ```
@@ -78,7 +78,7 @@ For more detail, see [Install Asciidoctor PDF](https://docs.asciidoctor.org/pdf-
 
 1. Add the following code to **.gitattributes**:
 
-```
+```gitattributes
 # Exclude vendored code from repo language stats
 <directory_name>/asciidoctor-default.css linguist-vendored
 ```
@@ -86,7 +86,7 @@ For more detail, see [Install Asciidoctor PDF](https://docs.asciidoctor.org/pdf-
 
 1. Add the following code to **.gitattributes**:
 
-```
+```gitattributes
 # Include README.md in repo language stats
 README.md -linguist-documentation
 ```

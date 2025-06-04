@@ -32,7 +32,7 @@
 1. Open **PowerShell**.
 1. Run the following command:
 
-```
+```sh
 winget install Volta.Volta
 ```
 
@@ -52,7 +52,7 @@ For more detail, see Volta's [Getting Started](https://docs.volta.sh/guide/getti
 1. Open **PowerShell**.
 1. Run the following command:
 
-```
+```sh
 volta install node
 ```
 
@@ -64,7 +64,7 @@ For more detail, see Volta's [Getting Started](https://docs.volta.sh/guide/getti
 1. Open **PowerShell**.
 1. Run the following command:
 
-```
+```sh
 volta install node@<version_number>
 ```
 
@@ -78,25 +78,25 @@ For more detail, see Volta's [Getting Started](https://docs.volta.sh/guide/getti
 1. Select **CTRL+`** to open **Terminal**.
 1. Run the following command:
 
-```
+```sh
 cd <project_directory_name>
 ```
 
 4. Install **Antora CLI** by running the following command:
 
-```
+```sh
 node -e "fs.writeFileSync('package.json', '{}')"; if ($?) {npm i -D -E @antora/cli@<version number>}
 ```
 
 5. Install **Antora Site Generator** by running the following command:
 
-```
+```sh
 npm i -D -E @antora/site-generator@<version_number>
 ```
 
 6. Confirm the **Antora CLI** and **Site Generator** installations by running the following command:
 
-```
+```sh
 npx antora -v
 ```
 
@@ -110,7 +110,7 @@ For more detail, see [Install Antora](https://docs.antora.org/antora/latest/inst
 
 1. Add the following code to **.gitattributes**:
 
-```
+```gitattributes
 # Exclude generated HTML from repo language stats
 *.html linguist-generated
 ```
@@ -119,7 +119,7 @@ For more detail, see [Install Antora](https://docs.antora.org/antora/latest/inst
 
 1. Add the following code to **.gitattributes**:
 
-```
+```gitattributes
 # Exclude vendored code from repo language stats
 <directory_name>/node_modules/** linguist-vendored
 <directory_name>/package-lock.json linguist-vendored
@@ -130,7 +130,7 @@ For more detail, see [Install Antora](https://docs.antora.org/antora/latest/inst
 
 1. Add the following code to **.gitattributes**:
 
-```
+```gitattributes
 # Include README.md in repo language stats
 README.md -linguist-documentation
 ```
@@ -143,7 +143,7 @@ README.md -linguist-documentation
 
 This is a basic playbook, written in YAML:
 
-```
+```yml
 site:
   title: <site_name>
   url: <url>
@@ -166,7 +166,13 @@ For more detail, see:
 
 #### Configure Content Sources in the Playbook
 
-...
+If the content source is the same repository that contains the playbook, configure the URL as follows:
+
+```yml
+content:
+  sources:
+  - url: .   
+```
 
 #### Configure the UI in the Playbook
 
@@ -176,7 +182,7 @@ For more detail, see:
 
 This is the standard file and directory set:
 
-```
+```text
 <content_root_name>
   antora.yml
   modules
@@ -225,7 +231,7 @@ For more detail, see:
 1. Select **CTRL+`** to open **Terminal**.
 1. Run the following command:
 
-```
+```sh
 npm i @antora/lunr-extension
 ```
 
@@ -236,7 +242,7 @@ For more detail, see the Antora Lunr Extension [README](https://gitlab.com/antor
 
 Add this code to the Antora playbook:
 
-```
+```yml
 antora:
   extensions:
   - require: '@antora/lunr-extension'
