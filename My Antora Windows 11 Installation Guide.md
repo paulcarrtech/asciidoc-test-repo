@@ -109,6 +109,19 @@ For more detail, see [Install Antora](https://docs.antora.org/antora/latest/inst
 >
 > Skip these steps for private repositories.
 
+#### Include AsciiDoc, Markdown, and YAML in GitHub Repo Stats
+
+1. Add the following code to .gitattributes:
+
+```gitattributes
+# Include .adoc, .md, and .yml in repo language stats
+*.adoc linguist-detectable
+*.md linguist-detectable
+*.yml linguist-detectable
+```
+
+For more detail, see GitHub Linguist's [overrides for detectable languages](https://github.com/github-linguist/linguist/blob/main/docs/overrides.md#detectable).
+
 #### Exclude Generated HTML from GitHub Repo Stats
 
 1. Add the following code to **.gitattributes**:
@@ -117,7 +130,7 @@ For more detail, see [Install Antora](https://docs.antora.org/antora/latest/inst
 # Exclude generated HTML from repo language stats
 *.html linguist-generated
 ```
-For more detail, see GitHub Linguist [Overrides](https://github.com/github-linguist/linguist/blob/main/docs/overrides.md#generated-code).
+For more detail, see GitHub Linguist's [overrides for generated code](https://github.com/github-linguist/linguist/blob/main/docs/overrides.md#generated-code).
 
 #### Exclude Vendored Code from GitHub Repo Stats
 
@@ -129,7 +142,7 @@ For more detail, see GitHub Linguist [Overrides](https://github.com/github-lingu
 <directory_name>/package-lock.json linguist-vendored
 <directory_name>/package.json linguist-vendored
 ```
-For more detail, see GitHub Linguist [Overrides](https://github.com/github-linguist/linguist/blob/main/docs/overrides.md#vendored-code).
+For more detail, see GitHub Linguist's [overrides for vendored code](https://github.com/github-linguist/linguist/blob/main/docs/overrides.md#vendored-code).
 
 #### Include README.md in GitHub Repo Stats
 
@@ -140,7 +153,7 @@ For more detail, see GitHub Linguist [Overrides](https://github.com/github-lingu
 README.md -linguist-documentation
 ```
 
-For more detail, see GitHub Linguist [Overrides](https://github.com/github-linguist/linguist/blob/main/docs/overrides.md#documentation).
+For more detail, see GitHub Linguist's [overrides for documentation](https://github.com/github-linguist/linguist/blob/main/docs/overrides.md#documentation).
 
 ### Configure GitHub Pages or Another Static Site Host
 
