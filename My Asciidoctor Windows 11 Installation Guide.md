@@ -63,6 +63,11 @@ For more detail, see [Install Asciidoctor PDF](https://docs.asciidoctor.org/pdf-
 
 ### Configure GitHub Linguist
 
+> [!TIP]
+> These Linguist configuration steps affect how language stats are displayed *only on public* repositories.
+>
+> Skip these steps for private repositories.
+
 #### Include AsciiDoc, Markdown, and YAML in GitHub Repo Stats
 
 1. Add the following code to **.gitattributes**:
@@ -73,6 +78,7 @@ For more detail, see [Install Asciidoctor PDF](https://docs.asciidoctor.org/pdf-
 *.md linguist-detectable
 *.yml linguist-detectable
 ```
+For more detail, see GitHub Linguist's [overrides for detectable languages](https://github.com/github-linguist/linguist/blob/main/docs/overrides.md#detectable).
 
 #### Exclude Generated HTML from GitHub Repo Stats
 
@@ -82,6 +88,7 @@ For more detail, see [Install Asciidoctor PDF](https://docs.asciidoctor.org/pdf-
 # Exclude generated HTML from repo language stats
 *.html linguist-generated
 ```
+For more detail, see GitHub Linguist's [overrides for generated code](https://github.com/github-linguist/linguist/blob/main/docs/overrides.md#generated-code).
 
 #### Exclude Vendored Code from GitHub Repo Stats
 
@@ -91,6 +98,9 @@ For more detail, see [Install Asciidoctor PDF](https://docs.asciidoctor.org/pdf-
 # Exclude vendored code from repo language stats
 <directory_name>/asciidoctor-default.css linguist-vendored
 ```
+
+For more detail, see GitHub Linguist's [overrides for vendored code](https://github.com/github-linguist/linguist/blob/main/docs/overrides.md#vendored-code).
+
 #### Include README.md in GitHub Repo Stats
 
 1. Add the following code to **.gitattributes**:
@@ -99,3 +109,5 @@ For more detail, see [Install Asciidoctor PDF](https://docs.asciidoctor.org/pdf-
 # Include README.md in repo language stats
 README.md -linguist-documentation
 ```
+
+For more detail, see GitHub Linguist's [overrides for documentation](https://github.com/github-linguist/linguist/blob/main/docs/overrides.md#documentation).
