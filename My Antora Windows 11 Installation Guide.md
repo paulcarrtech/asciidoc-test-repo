@@ -2,7 +2,7 @@
 
 ## Assumption(s)
 
-* [x] A GitHub repository is ready to start working from.
+* [x] A GitHub repository is ready to work from.
 * [x] That GitHub repository contains these files in its root:
   * [x] **.gitattributes**
   * [x] **README.md** 

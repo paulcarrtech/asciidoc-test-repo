@@ -2,6 +2,15 @@
 
 The following instructions assume a GitHub repository is ready to start working from.
 
+## Contents
+
+* [First-Time Installation](#first-time-installation)
+  * [Install VS Code](#install-vs-code)
+  * [Install Ruby](#install-ruby)
+  * [Install Asciidoctor](#install-asciidoctor)
+* [Per-Project Installation](#per-project-installation)
+  * [Configure GitHub Linguist](#configure-github-linguist)
+
 ## First-Time Installation
 
 ### Install VS Code
@@ -52,7 +61,7 @@ For more detail, see [Install Asciidoctor PDF](https://docs.asciidoctor.org/pdf-
 
 ## Per-Project Installation
 
-### Configure the GitHub Repository
+### Configure GitHub Linguist
 
 #### Include AsciiDoc, Markdown, and YAML in GitHub Repo Stats
 
