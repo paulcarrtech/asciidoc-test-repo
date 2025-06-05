@@ -4,19 +4,19 @@
 
 ### Asciidoctor - Apply a Custom Stylesheet
 
-```sh
+```
 -a stylesheet=<directory_name/file_name.css>
 ```
 
 ### Asciidoctor - Specify the Output File and (Optional) Directory
 
-```sh
+```
 -o <optional_directory_name>/<file_name.html>
 ```
 
 ### Asciidoctor - Specify Only the Output Directory
 
-```sh
+```
 -D <directory_name>
 ```
 
@@ -24,7 +24,7 @@
 
 ### Asciidoctor PDF - Apply a Built-In Theme
 
-```sh
+```
 --theme <built-in_theme_name>
 ```
 
@@ -40,13 +40,13 @@ Built-in theme names include:
 
 ### Asciidoctor PDF - Apply a Custom Theme
 
-```sh
+```
 --theme <directory_name>/<file_name>.yml
 ```
 
 ### Asciidoctor PDF - Specify the Output Directory
 
-```sh
+```
 -D <directory_name>
 ```
 

@@ -32,7 +32,7 @@
 1. Open **PowerShell**.
 1. Run the following command:
 
-```sh
+```
 winget install Volta.Volta
 ```
 
@@ -52,7 +52,7 @@ For more detail, see Volta's [Getting Started](https://docs.volta.sh/guide/getti
 1. Open **PowerShell**.
 1. Run the following command:
 
-```sh
+```
 volta install node
 ```
 
@@ -64,7 +64,7 @@ For more detail, see Volta's [Getting Started](https://docs.volta.sh/guide/getti
 1. Open **PowerShell**.
 1. Run the following command:
 
-```sh
+```
 volta install node@<version_number>
 ```
 
@@ -78,25 +78,25 @@ For more detail, see Volta's [Getting Started](https://docs.volta.sh/guide/getti
 1. Select **CTRL+`** to open **Terminal**.
 1. Run the following command:
 
-```sh
+```
 cd <project_directory_name>
 ```
 
 4. Install **Antora CLI** by running the following command:
 
-```sh
+```
 node -e "fs.writeFileSync('package.json', '{}')"; if ($?) {npm i -D -E @antora/cli@<version number>}
 ```
 
 5. Install **Antora Site Generator** by running the following command:
 
-```sh
+```
 npm i -D -E @antora/site-generator@<version_number>
 ```
 
 6. Confirm the **Antora CLI** and **Site Generator** installations by running the following command:
 
-```sh
+```
 npx antora -v
 ```
 
@@ -292,7 +292,7 @@ For more detail, see:
 1. Select **CTRL+`** to open **Terminal**.
 1. Run the following command:
 
-```sh
+```
 npm i @antora/lunr-extension
 ```
 
