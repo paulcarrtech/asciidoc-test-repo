@@ -2,6 +2,8 @@
 
 ## Assumption(s)
 
+* [x] Asciidoctor and its dependencies have been installed.
+  * see [My Asciidoctor Windows 11 Installation Guide](https://github.com/paulcarrtech/asciidoc-test-repo/blob/main/My%20Asciidoctor%20Windows%2011%20Installation%20Guide.md).
 * [x] A GitHub repository is ready to work from.
 * [x] That GitHub repository contains these files in its root:
   * [x] **.gitattributes**
