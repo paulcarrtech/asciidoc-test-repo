@@ -182,7 +182,7 @@ ui:
 ```
 
 > [!IMPORTANT]
-> The playbook file extension must be **.yml**.   
+> The playbook file's extension must be **.yml**.   
 
 For more detail, see:
 
@@ -287,9 +287,39 @@ For more detail, see:
 ### Configure antora.yml
 
 > [!IMPORTANT]
-> The **antora.yml** file extension must be **.yml**.  
+> The **antora.yml** file's extension must be **.yml**.  
 
-For more detail, see:
+1. Create the file **antora.yml** in the content root directory at the same level as the modules directory:
+
+```text
+<content_root_name>
+  antora.yml
+  modules
+```
+2. Add the following key-value pairs to **antora.yml**:
+
+```yml
+name: <component_name>
+version: <version_number_or_name>
+title: <component_title>
+nav:
+- modules/<module_directory>/nav.adoc
+```
+#### Key-Value Pairs for antora.yml 
+
+| Required Key | Value |
+| --- | --- |
+| `name` | Lowercase, alphanumeric name; optionally separated by underscores, hyphens, or periods |
+| `...` | ... |
+
+| Optional Key | Value |
+| --- | ---|
+| `...` | ... |
+
+> [!IMPORTANT]
+> If a value begins with a number or symbol, enclose it with single quotation marks.
+
+For more detail and other options, see:
 
 * [What’s antora.yml?](https://docs.antora.org/antora/latest/component-version-descriptor/)
 
