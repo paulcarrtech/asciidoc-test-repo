@@ -349,7 +349,7 @@ For more detail, see the Antora Lunr Extension [README](https://gitlab.com/antor
 
 #### Register Lunr Search in the Antora Playbook
 
-Add this code to the Antora playbook:
+1. Add this code to the Antora playbook:
 
 ```yml
 antora:
