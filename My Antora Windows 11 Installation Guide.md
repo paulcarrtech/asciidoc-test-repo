@@ -309,6 +309,8 @@ nav:
 ```
 #### Key-Value Pairs for antora.yml 
 
+There are two required key-value pairs for antora.yml.
+
 | Required Key | Value |
 | --- | --- |
 | `name:` | Lowercase, alphanumeric name; optionally separated by underscores, hyphens, or periods |
@@ -319,6 +321,8 @@ nav:
 
 > [!TIP]
 > To include uppercase letters, spaces, or special characters when identifying the version, see [Customize the Display Version](https://docs.antora.org/antora/latest/component-display-version/). 
+
+There are several optional key-value pairs for antora.yml. The following table lists some examples.
 
 | Optional Key | Value |
 | --- | ---|
