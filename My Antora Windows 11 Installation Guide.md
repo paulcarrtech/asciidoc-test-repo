@@ -312,7 +312,7 @@ nav:
 | Required Key | Value |
 | --- | --- |
 | `name:` | Lowercase, alphanumeric name; optionally separated by underscores, hyphens, or periods |
-| `version:` | Lowercase, alphanumeric identifier; optionally separated by underscores, hyphens, or periods &bull; Can be a named identifier (such as `sequoia`) or semantic identifier (such as `'7.0'` or `'7.x'`) &bull; For other options, see [version key](https://docs.antora.org/antora/latest/component-version-key/#key) |
+| `version:` | Lowercase, alphanumeric identifier; optionally separated by underscores, hyphens, or periods &bull; Can be a named identifier (such as `sequoia`) or semantic identifier (such as `'7.0'` or `'7.x'`) &bull; For other options, see [Version Key](https://docs.antora.org/antora/latest/component-version-key/#key) |
 
 > [!IMPORTANT]
 > If the version key's value begins with a number, enclose it with single quotation marks.
@@ -323,11 +323,16 @@ nav:
 | Optional Key | Value |
 | --- | ---|
 | `title:` | Overrides the name key's value for user-facing display &bull; Can contain uppercase letters, spaces, and special characters &bull; Should be consistent across all versions of a component to avoid confusion |
-| `nav:` | Registers **nav.adoc** for each module of the component &bull; See the [sample above](#antora.yml-sample) for syntax |
+| `nav:` | Registers **nav.adoc** for each module of the component &bull; See the [sample above](#antora.yml-sample) for the value's syntax |
 
 For more detail and other options, see:
 
+* [What's a Component Version?](https://docs.antora.org/antora/latest/component-version/)
 * [What’s antora.yml?](https://docs.antora.org/antora/latest/component-version-descriptor/)
+* [Define a Component Version](https://docs.antora.org/antora/latest/component-name-and-version/)
+* [Identify a Prerelease Version](https://docs.antora.org/antora/latest/component-prerelease/)
+* [Assign Attributes to a Component Version](https://docs.antora.org/antora/latest/component-attributes/)
+* [Version Facets](https://docs.antora.org/antora/latest/version-facets/)
 
 ### Configure Supplemental UI Directories
 
