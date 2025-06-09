@@ -325,7 +325,7 @@ There are two required key-value pairs for antora.yml.
 There are several optional key-value pairs for antora.yml. The following table lists some examples.
 
 | Optional Key | Value |
-| --- | ---|
+| --- | --- |
 | `title:` | Overrides the name key's value for user-facing display &bull; Can contain uppercase letters, spaces, and special characters &bull; Should be consistent across all versions of a component to avoid confusion |
 | `nav:` | Registers **nav.adoc** for each module of the component &bull; See the [sample above](#antora.yml-sample) for the value's syntax |
 
