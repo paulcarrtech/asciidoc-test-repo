@@ -309,15 +309,18 @@ nav:
 
 | Required Key | Value |
 | --- | --- |
-| `name` | Lowercase, alphanumeric name; optionally separated by underscores, hyphens, or periods |
-| `...` | ... |
+| `name:` | Lowercase, alphanumeric name; optionally separated by underscores, hyphens, or periods. |
+| `version:` | Lowercase, alphanumeric identifier; optionally separated by underscores, hyphens, or periods. This value can be a named identifier (such as `sequoia`) or semantic identifier (such as `'7.0'` or `'7.x'`). For other options, see [version key](https://docs.antora.org/antora/latest/component-version-key/#key). |
+
+> [!IMPORTANT]
+> If the version key's value begins with a number, enclose it with single quotation marks.
+
+> [!TIP]
+> To include uppercase letters, spaces, or special characters when identifying the version, see [Customize the Display Version](https://docs.antora.org/antora/latest/component-display-version/). 
 
 | Optional Key | Value |
 | --- | ---|
 | `...` | ... |
-
-> [!IMPORTANT]
-> If a value begins with a number or symbol, enclose it with single quotation marks.
 
 For more detail and other options, see:
 
