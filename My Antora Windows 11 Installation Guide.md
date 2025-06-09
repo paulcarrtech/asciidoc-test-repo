@@ -296,8 +296,10 @@ For more detail, see:
   antora.yml
   modules
 ```
+
 2. Add the following key-value pairs to **antora.yml**:
 
+<a name="antora.yml-sample"></a>
 ```yml
 name: <component_name>
 version: <version_number_or_name>
@@ -309,8 +311,8 @@ nav:
 
 | Required Key | Value |
 | --- | --- |
-| `name:` | Lowercase, alphanumeric name; optionally separated by underscores, hyphens, or periods. |
-| `version:` | Lowercase, alphanumeric identifier; optionally separated by underscores, hyphens, or periods. This value can be a named identifier (such as `sequoia`) or semantic identifier (such as `'7.0'` or `'7.x'`). For other options, see [version key](https://docs.antora.org/antora/latest/component-version-key/#key). |
+| `name:` | Lowercase, alphanumeric name; optionally separated by underscores, hyphens, or periods |
+| `version:` | Lowercase, alphanumeric identifier; optionally separated by underscores, hyphens, or periods &bull; Can be a named identifier (such as `sequoia`) or semantic identifier (such as `'7.0'` or `'7.x'`) &bull; For other options, see [version key](https://docs.antora.org/antora/latest/component-version-key/#key) |
 
 > [!IMPORTANT]
 > If the version key's value begins with a number, enclose it with single quotation marks.
@@ -320,7 +322,8 @@ nav:
 
 | Optional Key | Value |
 | --- | ---|
-| `...` | ... |
+| `title:` | Overrides the name key's value for user-facing display &bull; Can contain uppercase letters, spaces, and special characters &bull; Should be consistent across all versions of a component to avoid confusion |
+| `nav:` | Registers **nav.adoc** for each module of the component &bull; See the [sample above](#antora.yml-sample) for syntax |
 
 For more detail and other options, see:
 
