@@ -8,7 +8,7 @@ The following instructions assume a GitHub repository is ready to start working 
   * [Install VS Code](#install-vs-code)
   * [Install Ruby](#install-ruby)
   * [Install Asciidoctor](#install-asciidoctor)
-* [Per-Project Installation](#per-project-installation)
+* [Per-Project Installation and Configuration](#per-project-installation-and-configuration)
   * [Configure GitHub Linguist](#configure-github-linguist)
 
 ## First-Time Installation
@@ -59,7 +59,7 @@ For more detail, see Asciidoctor's [Gem Install](https://docs.asciidoctor.org/as
 
 For more detail, see [Install Asciidoctor PDF](https://docs.asciidoctor.org/pdf-converter/latest/install/#install-asciidoctor-pdf).
 
-## Per-Project Installation
+## Per-Project Installation and Configuration
 
 ### Configure GitHub Linguist
 
