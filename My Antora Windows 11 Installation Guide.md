@@ -124,13 +124,16 @@ For more detail, see [Install Antora](https://docs.antora.org/antora/latest/inst
 
 For more detail, see GitHub Linguist's [overrides for detectable languages](https://github.com/github-linguist/linguist/blob/main/docs/overrides.md#detectable).
 
-#### Exclude Generated HTML from GitHub Repo Stats
+#### Exclude Generated Code from GitHub Repo Stats
 
 1. Add the following code to **.gitattributes**:
 
 ```gitattributes
 # Exclude generated HTML from repo language stats
 *.html linguist-generated
+build/site/**.xml linguist-generated
+build/site/**.js linguist-generated
+build/site/**.css linguist-generated
 ```
 For more detail, see GitHub Linguist's [overrides for generated code](https://github.com/github-linguist/linguist/blob/main/docs/overrides.md#generated-code).
 
