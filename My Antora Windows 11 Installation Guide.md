@@ -252,7 +252,23 @@ List | Any combination of the above value types, comma separated, and enclosed b
 
 #### Configure the UI in the Playbook
 
-...
+1. Configure the UI with the following code:
+
+```yml
+ui:
+  bundle:
+    url: <url>
+    snapshot: true
+```
+
+> [!Tip]
+> Register the following URL for the default Antora UI: `https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable`
+
+For more detail and options, see:
+* [UI Keys](https://docs.antora.org/antora/latest/playbook/configure-ui/)
+* [UI Bundle URL](https://docs.antora.org/antora/latest/playbook/ui-bundle-url/)
+* [UI Output Directory](https://docs.antora.org/antora/latest/playbook/ui-output-dir/)
+* [Default Layout for Pages](https://docs.antora.org/antora/latest/playbook/ui-default-layout/)
 
 ### Organize Antora Content Files
 
