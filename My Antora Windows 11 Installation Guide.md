@@ -21,8 +21,9 @@
   * [Configure the Antora Playbook](#configure-the-antora-playbook)
   * [Organize Antora Content Files](#organize-antora-content-files)
   * [Configure antora.yml](#configure-antorayml)
-  * [Configure Supplemental UI Directories](#configure-supplemental-ui-directories)
   * [Install the Lunr Search Extension Locally to Each Project](#install-the-lunr-search-extension-locally-to-each-project)
+  * [Configure Supplemental UI Directories](#configure-supplemental-ui-directories)
+
   * [Generate Sites Locally](#generate-sites-locally)
   * [Deploy Sites Online](#deploy-sites-online)
 
@@ -341,14 +342,6 @@ For more detail and other options, see:
 * [Assign Attributes to a Component Version](https://docs.antora.org/antora/latest/component-attributes/)
 * [Version Facets](https://docs.antora.org/antora/latest/version-facets/)
 
-### Configure Supplemental UI Directories
-
-...
-
-#### Register Supplmental UI in the Antora Playbook
-
-...
-
 ### Install the Lunr Search Extension Locally to Each Project
 
 1. Open **VS Code**.
@@ -361,7 +354,6 @@ npm i @antora/lunr-extension
 
 For more detail, see the Antora Lunr Extension [README](https://gitlab.com/antora/antora-lunr-extension/-/blob/main/README.adoc?ref_type=heads).
 
-
 #### Register Lunr Search in the Antora Playbook
 
 1. Add this code to the Antora playbook:
@@ -372,6 +364,14 @@ antora:
   - require: '@antora/lunr-extension'
 ```
 For more detail and options, see the Antora Lunr Extension [README](https://gitlab.com/antora/antora-lunr-extension/-/blob/main/README.adoc?ref_type=heads).
+
+### Configure Supplemental UI Directories
+
+...
+
+#### Register Supplmental UI in the Antora Playbook
+
+...
 
 ### Generate Sites Locally
 
