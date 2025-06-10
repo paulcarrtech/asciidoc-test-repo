@@ -388,6 +388,8 @@ For more detail and options, see the Antora Lunr Extension [README](https://gitl
 
 ...
 
+For more detail, see [Supplemental UI](https://docs.antora.org/antora/latest/playbook/ui-supplemental-files/).
+
 ### Generate Sites Locally
 
 For more detail, see [Run Antora to Generate Your Site](https://docs.antora.org/antora/latest/run-antora/).
