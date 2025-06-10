@@ -14,7 +14,7 @@
 * [First-Time Installation](#first-time-installation)
   * [Install Volta](#install-volta)
   * [Install Node.js with Volta](#install-nodejs-with-volta)
-* [Per-Project Installation and Configuration](#per-project-installation-and-configuration)
+* [Per-Project Installation and Configuratio](#per-project-installation-and-configuration)
   * [Install Antora Locally to Each Project](#install-antora-locally-to-each-project)
   * [Configure GitHub Linguist](#configure-github-linguist)
   * [Configure GitHub Pages or Another Static Site Host](#configure-github-pages-or-another-static-site-host)
@@ -23,7 +23,6 @@
   * [Configure antora.yml](#configure-antorayml)
   * [Install the Lunr Search Extension Locally to Each Project](#install-the-lunr-search-extension-locally-to-each-project)
   * [Configure Supplemental UI Directories](#configure-supplemental-ui-directories)
-
   * [Generate Sites Locally](#generate-sites-locally)
   * [Deploy Sites Online](#deploy-sites-online)
 
