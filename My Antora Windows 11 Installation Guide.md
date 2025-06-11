@@ -384,11 +384,43 @@ For more detail and options, see the Antora Lunr Extension [README](https://gitl
 
 ### Configure Supplemental UI Directories
 
-...
+1. In the root of the playbook project, add a `supplemental-ui` folder.
+1. Add UI components to this folder.
 
-#### Register Supplmental UI in the Antora Playbook
+> [!IMPORTANT]
+> The structure of the **supplemental-ui** folder must match that of the original UI, yet the folder need only contain the files necessary for customization.
+> For example, if using the [Antora default UI](https://gitlab.com/antora/antora-ui-default/-/tree/master/src), your supplemental-ui folder might look like this:
+> ```text
+> supplemental-ui
+>  css
+>   nav.css
+>   print.css 
+>  partials
+>   footer-content.hbs
+>   head-styles.hbs 
+>   header-content.hbs
 
-...
+3. Customize the supplemental UI components as your project requires.
+
+> [!TIP]
+> You can copy the full code from an original UI component into the corresponding file in the **supplemental-ui** folder. You can then customize that code in the local component. This will overwrite the equivalant UI component when Antora builds the site.    
+
+For more detail, see [Supplemental UI](https://docs.antora.org/antora/latest/playbook/ui-supplemental-files/).
+
+#### Register the Supplmental UI in the Antora Playbook
+
+1. Register the **supplmental-ui** folder with the following code:
+
+```yml
+ui:
+  bundle:
+    url: <url>
+    snapshot: true
+  supplemental_files: supplmental-ui
+```
+
+> [!Tip] 
+> Register the following URL for the default Antora UI: `https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable`
 
 For more detail, see [Supplemental UI](https://docs.antora.org/antora/latest/playbook/ui-supplemental-files/).
 
