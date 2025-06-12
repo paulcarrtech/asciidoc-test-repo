@@ -396,9 +396,6 @@ For more detail and options, see the Antora Lunr Extension [README](https://gitl
 > For example, if using the [Antora default UI](https://gitlab.com/antora/antora-ui-default/-/tree/master/src), your supplemental-ui folder might look like this:
 > ```text
 > supplemental-ui
->  css
->   nav.css
->   print.css 
 >  partials
 >   footer-content.hbs
 >   head-styles.hbs 
@@ -409,7 +406,10 @@ For more detail and options, see the Antora Lunr Extension [README](https://gitl
 > [!TIP]
 > You can copy the full code from an original UI component into the corresponding file in the **supplemental-ui** folder. You can then customize that code in the local component. This will overwrite the equivalant UI component when Antora builds the site.    
 
-For more detail, see [Supplemental UI](https://docs.antora.org/antora/latest/playbook/ui-supplemental-files/).
+For more detail, see:
+
+* [Supplemental UI](https://docs.antora.org/antora/latest/playbook/ui-supplemental-files/)
+* [The relationship between the supplement UI and CSS](https://gitlab.com/antora/antora/-/issues/149#note_140294252)
 
 #### Register the Supplmental UI in the Antora Playbook
 
