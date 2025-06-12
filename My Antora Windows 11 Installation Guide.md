@@ -274,7 +274,7 @@ For more detail and options, see:
 
 ### Organize Antora Content Files
 
-This is the standard file and directory set:
+1. Organize your content with a structure similar to this example of the standard file and directory set:
 
 ```text
 <content_root_name>
@@ -291,12 +291,16 @@ This is the standard file and directory set:
       pages
       nav.adoc
 ```
-The **modules** directory must contain **either** *or* **both** of the following:
 
-* a **ROOT** module directory
-* at least one named module directory
-
-Module directories must contain at lease one child directory. Including **nav.adoc** is optional.
+> [!IMPORTANT]
+> * [x] The **modules** directory must contain **either** *or* **both** of the following:
+>
+>   * [ ] a **ROOT** module directory
+>   * [ ] at least one named module directory
+> * [x] Each **ROOT** or named module directory must contain at least one child directory:
+>   * [x] `attachments`, `examples`, `images`, `pages`, and `partials` are reserved directory names
+>   * [ ] child directories can optionally contain subdirectories   
+> * [ ] Including **nav.adoc** in a **ROOT** or named module directory is optional.
 
 For more detail, see:
 
