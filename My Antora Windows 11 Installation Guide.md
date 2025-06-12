@@ -297,10 +297,10 @@ For more detail and options, see:
 >
 >   * [ ] a **ROOT** module directory
 >   * [ ] at least one named module directory
-> * [x] Each **ROOT** or named module directory must contain at least one child directory:
->   * [x] `attachments`, `examples`, `images`, `pages`, and `partials` are reserved directory names
->   * [ ] child directories can optionally contain subdirectories   
-> * [ ] Including **nav.adoc** in a **ROOT** or named module directory is optional.
+> * [x] Each **ROOT** or named module directory must contain at least one child directory.
+>   * [x] `attachments`, `examples`, `images`, `pages`, and `partials` are reserved directory names.
+>   * [ ] Child directories can optionally contain subdirectories.
+> * [ ] Including **nav.adoc** in the **ROOT** or named module directory is optional.
 
 For more detail, see:
 
