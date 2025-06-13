@@ -377,9 +377,11 @@ For more detail and other options, see:
 
 ### Configure Each Module's nav.adoc
 
+...
+
 | Type | Syntax |
 | --- | --- |
-
+| ... | ... |
 
 For more detail and options, see: 
 
