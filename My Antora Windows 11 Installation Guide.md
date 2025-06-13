@@ -377,7 +377,15 @@ For more detail and other options, see:
 
 ### Configure Each Module's nav.adoc
 
+| Type | Syntax |
+| --- | --- |
 
+
+For more detail and options, see: 
+
+* [Navigation Files and Lists](https://docs.antora.org/antora/latest/navigation/files-and-lists/)
+* [Create a Navigation File with One List](https://docs.antora.org/antora/latest/navigation/single-list/)
+* [Create a Navigation File with Multiple Lists](https://docs.antora.org/antora/latest/navigation/multiple-lists/)
 
 ### Install the Lunr Search Extension Locally to Each Project
 
