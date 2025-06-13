@@ -332,6 +332,17 @@ title: <component_title>
 nav:
 - modules/<ROOT_or_named_module_directory>/nav.adoc
 ```
+
+> [!TIP]
+> If your content has multiple module directories, register the path to each module's nav.adoc under the `nav:` key as a separate line prefixed with a hyphen and space: 
+>
+> ```yml
+> nav:
+> - modules/ROOT/nav.adoc
+> - modules/<named_module_1>/nav.adoc
+> - modules/<named_module_2>/nav.adoc
+>``` 
+
 #### Key-Value Pairs for antora.yml 
 
 There are two required key-value pairs for antora.yml.
