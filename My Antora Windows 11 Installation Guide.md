@@ -330,7 +330,7 @@ name: <component_name>
 version: <version_number_or_name>
 title: <component_title>
 nav:
-- modules/<module_directory>/nav.adoc
+- modules/<ROOT_or_named_module_directory>/nav.adoc
 ```
 #### Key-Value Pairs for antora.yml 
 
