@@ -21,6 +21,7 @@
   * [Configure the Antora Playbook](#configure-the-antora-playbook)
   * [Organize Antora Content Files](#organize-antora-content-files)
   * [Configure antora.yml](#configure-antorayml)
+  * [Configure Each Module's nav.adoc](#configure-each-modules-navadoc)
   * [Install the Lunr Search Extension Locally to Each Project](#install-the-lunr-search-extension-locally-to-each-project)
   * [Configure Supplemental UI Directories](#configure-supplemental-ui-directories)
   * [Generate Sites Locally](#generate-sites-locally)
@@ -373,6 +374,10 @@ For more detail and other options, see:
 * [Identify a Prerelease Version](https://docs.antora.org/antora/latest/component-prerelease/)
 * [Assign Attributes to a Component Version](https://docs.antora.org/antora/latest/component-attributes/)
 * [Version Facets](https://docs.antora.org/antora/latest/version-facets/)
+
+### Configure Each Module's nav.adoc
+
+
 
 ### Install the Lunr Search Extension Locally to Each Project
 
