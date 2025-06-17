@@ -377,17 +377,56 @@ For more detail and other options, see:
 
 ### Configure Each Module's nav.adoc
 
-...
+1. Open or create **nav.adoc** in the **ROOT** or named module directory of a component.
+1. Organzine your module's navigation with one or more unordered lists of links.
+
+Here is as an example of a **nav.adoc** file containing multiple navigation lists:
+
+```asciidoc
+.xref:getting-started.adoc[Getting Started]
+* xref:topic-01.adoc[]
+* xref:topic-02.adoc[]
+** xref:subtopic-01.adoc[]
+** xref:subtopic-02.adoc[]
+* xref:topic-03.adoc[]
+
+.Get Support
+* xref:troubleshooting.adoc[]
+* https://<domain>.<name>[Submit a Ticket]
+```
+
+> [!IMPORTANT]
+> Two or more lists require the following:
+> * Each list must have a title.
+> * A blank line must seperate each list. 
+
+The following table describes several types of navigation list items. 
 
 | Type | Syntax |
 | --- | --- |
-| ... | ... |
+| List title with page reference | `.xref:<file_name>.adoc[]` |
+| List title without page reference | `.<list_title>`
+| Page within same module | `* xref:<file_name>.adoc[]`
+| Page in different module | `* xref:<module_name>:<file_name>.adoc[]` |
+| Page in different component | `* xref:<version>@<component_name>:<module_name>:<file_name>.adoc[]` |
+| External page with link text | `* https://<domain>.<name>[<link_text>]` |
+| External page with raw URL | `* https://<domain>.<name>` |
+
+> [!NOTE]
+> Only an xref appended by a fragment requires link text in a **nav.adoc** file. Here is an example: `* xref:<file_name>.adoc#<fragment_name>[<link_text>]`
 
 For more detail and options, see: 
 
 * [Navigation Files and Lists](https://docs.antora.org/antora/latest/navigation/files-and-lists/)
 * [Create a Navigation File with One List](https://docs.antora.org/antora/latest/navigation/single-list/)
 * [Create a Navigation File with Multiple Lists](https://docs.antora.org/antora/latest/navigation/multiple-lists/)
+* [Page Xrefs and Link Text](https://docs.antora.org/antora/latest/navigation/xrefs-and-link-text/)
+* [Add Links to External Sites](https://docs.antora.org/antora/latest/navigation/external-links/)
+* [Attachment Xrefs and Link Text](https://docs.antora.org/antora/latest/navigation/reference-resources/)
+
+#### Register nav.adoc in antora.yml
+
+See [Key-Value Pairs for antora.yml](#key-value-pairs-for-antorayml) above.
 
 ### Install the Lunr Search Extension Locally to Each Project
 
