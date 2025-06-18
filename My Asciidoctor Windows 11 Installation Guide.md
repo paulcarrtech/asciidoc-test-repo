@@ -42,8 +42,6 @@ ext install asciidoctor.asciidoctor-vscode
 
 2. Run the installer as an adminstrator.
 
-
-
 ### Install Ruby
 
 1. Download and install [RubyInstaller](https://rubyinstaller.org/downloads/).
