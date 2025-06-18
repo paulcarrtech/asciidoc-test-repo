@@ -38,7 +38,7 @@ ext install asciidoctor.asciidoctor-vscode
 1. Download a [standalone Git installer](https://git-scm.com/downloads/win).
 
 > [!IMPORTANT]
-> Ignore the instructions for installing Git with **winget**. 
+> **Ignore** the instructions for installing Git with **winget**. 
 
 2. Run the installer as an administrator.
 
@@ -58,7 +58,7 @@ gem install asciidoctor
 For more detail, see Asciidoctor's [Gem Install](https://docs.asciidoctor.org/asciidoctor/latest/install/ruby-packaging/#gem-install) guide. 
 
 > [!IMPORTANT]
-> **Ignore** the instructions about RVM.
+> **Ignore** the instructions about **RVM**.
 
 #### Install Asciidoctor PDF
 
