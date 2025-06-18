@@ -33,6 +33,17 @@ The following instructions assume a GitHub repository is ready to start working 
 ext install asciidoctor.asciidoctor-vscode  
 ``` 
 
+### Install Git
+
+1. Download a [standalone Git installer](https://git-scm.com/downloads/win).
+
+> [!IMPORTANT]
+> Ignore the instructions for installing Git with **winget**. 
+
+2. Run the installer as an adminstrator.
+
+
+
 ### Install Ruby
 
 1. Download and install [RubyInstaller](https://rubyinstaller.org/downloads/).
