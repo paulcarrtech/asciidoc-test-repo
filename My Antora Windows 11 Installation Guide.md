@@ -17,16 +17,12 @@
 * [Per-Project Installation and Configuration](#per-project-installation-and-configuration)
   * [Install Antora Locally to Each Project](#install-antora-locally-to-each-project)
   * [Configure GitHub Linguist](#configure-github-linguist)
-  * [Configure GitHub Pages or Another Static Site Host](#configure-github-pages-or-another-static-site-host)
   * [Configure the Antora Playbook](#configure-the-antora-playbook)
   * [Organize Antora Content Files](#organize-antora-content-files)
   * [Configure antora.yml](#configure-antorayml)
   * [Configure Each Module's nav.adoc](#configure-each-modules-navadoc)
   * [Install the Lunr Search Extension Locally to Each Project](#install-the-lunr-search-extension-locally-to-each-project)
   * [Configure Supplemental UI Directories](#configure-supplemental-ui-directories)
-  * [Generate Sites Locally](#generate-sites-locally)
-  * [Deploy Sites Online](#deploy-sites-online)
-
 
 ## First-Time Installation
 
@@ -160,10 +156,6 @@ README.md -linguist-documentation
 ```
 
 For more detail, see GitHub Linguist's [overrides for documentation](https://github.com/github-linguist/linguist/blob/main/docs/overrides.md#documentation).
-
-### Configure GitHub Pages or Another Static Site Host
-
-...
 
 ### Configure the Antora Playbook
 
@@ -492,11 +484,3 @@ ui:
 > Register the following URL for the default Antora UI: `https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable`
 
 For more detail, see [Supplemental UI](https://docs.antora.org/antora/latest/playbook/ui-supplemental-files/).
-
-### Generate Sites Locally
-
-For more detail, see [Run Antora to Generate Your Site](https://docs.antora.org/antora/latest/run-antora/).
-
-### Deploy Sites Online
-
-...
