@@ -40,7 +40,7 @@ ext install asciidoctor.asciidoctor-vscode
 > [!IMPORTANT]
 > Ignore the instructions for installing Git with **winget**. 
 
-2. Run the installer as an adminstrator.
+2. Run the installer as an administrator.
 
 ### Install Ruby
 
