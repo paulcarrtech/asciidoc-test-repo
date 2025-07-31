@@ -103,11 +103,6 @@ For more detail, see [Install Antora](https://docs.antora.org/antora/latest/inst
 
 ### Configure GitHub Linguist
 
-> [!TIP] 
-> These Linguist configuration steps affect how language stats are displayed *only on public* repositories. 
->
-> Skip these steps for private repositories.
-
 #### Include AsciiDoc, Markdown, and YAML in GitHub Repo Stats
 
 1. Add the following code to .gitattributes:
