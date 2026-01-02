@@ -18,5 +18,5 @@ I am a technical writer and editor based in Vancouver, Canada.
 
 ## Copyright
 
-* Content &copy; 2025 Paul Carr (unless otherwise stated)
+* Content &copy; 2026 Paul Carr (unless otherwise stated)
 * All rights reserved
